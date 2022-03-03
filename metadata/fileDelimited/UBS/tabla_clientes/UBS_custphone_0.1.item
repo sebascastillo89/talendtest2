@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_wXgX0ZMHEeyTMpo76WAzcQ" name="UBS_custphone" dataPackage="_wXgX0pMHEeyTMpo76WAzcQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/custphone.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_wXgX0pMHEeyTMpo76WAzcQ" name="default" dataManager="_wXgX0ZMHEeyTMpo76WAzcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wXgX05MHEeyTMpo76WAzcQ" id="_vF6pkJMGEeyTMpo76WAzcQ" comment="Tabla de teléfonos TOF" label="UBS_custphone">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX1JMHEeyTMpo76WAzcQ" comment="Número de cliente" label="_cpn_cst" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX1ZMHEeyTMpo76WAzcQ" comment="Número de secuencia del registro" label="_cpn_seq" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX1pMHEeyTMpo76WAzcQ" comment="Fecha de creación" label="_cpn_date_c" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX15MHEeyTMpo76WAzcQ" comment="Fecha de modificación" label="_cpn_date_m" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX2JMHEeyTMpo76WAzcQ" comment="Usuario de modificación" label="_cpn_user" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX2ZMHEeyTMpo76WAzcQ" comment="Estado" label="_cpn_status" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX2pMHEeyTMpo76WAzcQ" comment="Descripción interna" label="_cpn_desc_int" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_VPGxsJMIEeyTMpo76WAzcQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX25MHEeyTMpo76WAzcQ" comment="Tipo de teléfono: 1.private-2.office.3.GSM office.4.GSM private.5.fax private..." label="_cpn_type" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXgX3JMHEeyTMpo76WAzcQ" comment="Número de teléfono" label="_cpn_number" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="__cPUwJMnEeyR7ZhWbXG_XA" name="UBS_T0RISKPROFILES_TITULARES" dataPackage="__cPUwZMnEeyR7ZhWbXG_XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0RISKPROFILES_TITULARES.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__cPUwZMnEeyR7ZhWbXG_XA" name="default" dataManager="__cPUwJMnEeyR7ZhWbXG_XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__cPUwpMnEeyR7ZhWbXG_XA" id="_0CVdQJMnEeyR7ZhWbXG_XA" comment="Tabla de auditoría de titulares " label="UBS_T0RISKPROFILES_TITULARES">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__cPUw5MnEeyR7ZhWbXG_XA" comment="Identificador del risk profile" label="IDRISKPROF" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__cPUxJMnEeyR7ZhWbXG_XA" comment="NIF" label="NIF" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__cPUxZMnEeyR7ZhWbXG_XA" comment="Nombre" label="NOMBRE" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__cPUxpMnEeyR7ZhWbXG_XA" comment="Relación" label="RELACION" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__cPUx5MnEeyR7ZhWbXG_XA" comment="Fisico" label="FISICO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__cPUyJMnEeyR7ZhWbXG_XA" comment="Menor" label="MENOR" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

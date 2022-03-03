@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_kpCk4I8-EeyVfPQZECqnhA" name="INV_3.5" dataPackage="_kpCk4Y8-EeyVfPQZECqnhA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_3.5.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;1,10,19,28,40,49,79,87,95,103,107,128,149,167,185,203,221,239,257,275,293,311,329,347,362,370,388,392&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kpCk4Y8-EeyVfPQZECqnhA" name="default" dataManager="_kpCk4I8-EeyVfPQZECqnhA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kpCk4o8-EeyVfPQZECqnhA" id="_mMWZcI84EeyVfPQZECqnhA" comment="Fichero estándar de carga de Posiciones y Movimientos de Planes " label="INV_3.5">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk448-EeyVfPQZECqnhA" name="Cuenta_Propia" comment="Código de Cuenta Propia que realiza la carga (Siempre 5000)" label="Cuenta_Propia" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_kpCk5I8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk5Y8-EeyVfPQZECqnhA" name="Institucion" comment="Código de Institución para la que se realiza la carga" label="Institucion" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_kpCk5o8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk548-EeyVfPQZECqnhA" name="Codigo_Interno_del_Instrumento" comment="Instrumento del movimiento.  Si no se usa a blancos" label="Codigo_Interno_del_Instrumento" length="9" talendType="id_Integer" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk6I8-EeyVfPQZECqnhA" name="Codigo_ISIN_del_Instrumento" comment="Instrumento del movimiento" label="Codigo_ISIN_del_Instrumento" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_kpCk6Y8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk6o8-EeyVfPQZECqnhA" name="Codigo_Interno_Cuenta_Valores" comment="Número de la cuenta de valores /pensiones en Inversis. Si no se usa a blancos" label="Codigo_Interno_Cuenta_Valores" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_kpCk648-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk7I8-EeyVfPQZECqnhA" name="Clave_Externa_Cuenta_Valores" comment="Clave externa tal y como la tiene registrada la institución" label="Clave_Externa_Cuenta_Valores" length="30" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_kpCk7Y8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk7o8-EeyVfPQZECqnhA" name="Fecha_Operacion" comment="Fecha operación. Formato YYYYMMDD" label="Fecha_Operacion" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_kpCk748-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk8I8-EeyVfPQZECqnhA" name="Fecha_Valor" comment="Fecha de valor de la operación. Formato YYYYMMDD" label="Fecha_Valor" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_kpCk8Y8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk8o8-EeyVfPQZECqnhA" name="Fecha_Liquidacion" comment="Fecha en la que se liquida al cliente. Formato YYYYMMDD" label="Fecha_Liquidacion" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_kpCk848-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk9I8-EeyVfPQZECqnhA" name="Tipo_Operacion" comment="Tipo de operación de la operación cargada (TABLA MAESTRA)" label="Tipo_Operacion" length="4" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_kpCk9Y8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk9o8-EeyVfPQZECqnhA" name="Numero_Participaciones" comment="Número de participaciones de la operación" label="Numero_Participaciones" length="21" precision="9" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_kpCk948-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk-I8-EeyVfPQZECqnhA" name="Valor_Liquidativo" comment="Valor liquidativo del fondo / plan asociado a la operación Intermediario en la DIVISA de la transacción." label="Valor_Liquidativo" length="21" precision="9" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_kpCk-Y8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk-o8-EeyVfPQZECqnhA" name="Importe_Efectivo_Bruto" comment="Importe total de la operación en la DIVISA de" label="Importe_Efectivo_Bruto" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpCk-48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk_I8-EeyVfPQZECqnhA" name="Importe_Efectivo_Neto" comment="Importe efectivo neto en la DIVISA de la transacción" label="Importe_Efectivo_Neto" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpCk_Y8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpCk_o8-EeyVfPQZECqnhA" name="Comision_Empresa" comment="Comisión aplicada por la entidad en concepto de comisión empresa en la DIVISA de la transacción" label="Comision_Empresa" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpCk_48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClAI8-EeyVfPQZECqnhA" name="Comision_Cedida_al_Intermediario" comment="Comisión cedida al Intermediario en la DIVISA de la transacción" label="Comision_Cedida_al_Intermediario" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpClAY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClAo8-EeyVfPQZECqnhA" name="Comision_Gestora" comment="Comisión aplicada por la gestora Intermediario en la DIVISA de la transacción" label="Comision_Gestora" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpClA48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClBI8-EeyVfPQZECqnhA" name="Retencion_Origen" comment="Retención en origen aplicada en el movimiento" label="Retencion_Origen" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpClBY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClBo8-EeyVfPQZECqnhA" name="Retencion_Destino" comment="Retención en destino aplicada en el movimiento. Expresado en la DIVISA de la transacción" label="Retencion_Destino" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpClB48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClCI8-EeyVfPQZECqnhA" name="Gastos_Gestion" comment="Gastos en operaciones especiales Intermediario en la DIVISA de la transacción." label="Gastos_Gestion" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpClCY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClCo8-EeyVfPQZECqnhA" name="Impuestos_sobre_Gastos" comment="Impuestos sobre gastos de gestión Intermediario en la DIVISA de la transacción" label="Impuestos_sobre_Gastos" length="18" precision="2" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_kpClC48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClDI8-EeyVfPQZECqnhA" name="Cambio_Divisa_Operacion_Cliente" comment="Cambio de divisa entre la divisa de la transacción y la divisa del cliente. Si no se usa a blancos" label="Cambio_Divisa_Operacion_Cliente" length="18" precision="9" talendType="id_BigDecimal">
+        <initialValue xmi:id="_kpClDY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClDo8-EeyVfPQZECqnhA" name="Cambio_Divisa_Operacion_Cuenta_Propia" comment="Cambio de divisa entre la divisa de la transacción y la divisa de la cuenta propia. Si no se usa a blancos" label="Cambio_Divisa_Operacion_Cuenta_Propia" length="18" precision="9" talendType="id_BigDecimal">
+        <initialValue xmi:id="_kpClD48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClEI8-EeyVfPQZECqnhA" name="Referencia_Externa" comment="Referencia externa de movimientos" label="Referencia_Externa" length="15" talendType="id_Character">
+        <initialValue xmi:id="_kpClEY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClEo8-EeyVfPQZECqnhA" name="Fecha_Valor_Fiscal" comment="Formato YYYYMMDD. Fecha valor antigua para traspasos de fondos/planes sin retención. Si no se usa a blancos" label="Fecha_Valor_Fiscal" length="8" talendType="id_Character">
+        <initialValue xmi:id="_kpClE48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClFI8-EeyVfPQZECqnhA" name="Importe_Suscripcion_Antiguo" comment="Importe (divisa operación, usando el cambio divisa operación) de suscripción antiguo para traspasos de fondos / planes sin retención. Si no se usa a blancos" label="Importe_Suscripcion_Antiguo" length="18" precision="2" talendType="id_Double">
+        <initialValue xmi:id="_kpClFY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClFo8-EeyVfPQZECqnhA" name="Tipo_Saldo" comment="Tipo de saldo de la operación (TABLA MAESTRA). Para Planes: JU Jubilación FA Fallecimiento. Se ignora en fondos." label="Tipo_Saldo" length="4" talendType="id_Character">
+        <initialValue xmi:id="_kpClF48-EeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kpClGI8-EeyVfPQZECqnhA" name="Aportante" comment="Documento del aportante del plan de pensiones. Opcional en planes (si viene vacío se coge el partícipe)." label="Aportante" length="12" talendType="id_Character">
+        <initialValue xmi:id="_kpClGY8-EeyVfPQZECqnhA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_-LgkgI54Eey0ftKrpS31tA" name="INV_3.2" dataPackage="_-LgkgY54Eey0ftKrpS31tA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_3.2.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;1,10,19,28,40,49,79,87,108&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-LgkgY54Eey0ftKrpS31tA" name="default" dataManager="_-LgkgI54Eey0ftKrpS31tA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-Lgkgo54Eey0ftKrpS31tA" id="_PI1TMI53Eey0ftKrpS31tA" label="INV_3.2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Lgkg454Eey0ftKrpS31tA" name="Empresa" comment="Código de Cuenta Propia que realiza la carga (Siempre 5000)" label="Empresa" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_-LgkhI54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-LgkhY54Eey0ftKrpS31tA" name="Institucion" comment="Código de Institución para la que se realiza la carga" label="Institucion" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_-Lgkho54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Lgkh454Eey0ftKrpS31tA" name="Codigo_Interno_del_Instrumento" comment="Instrumento del movimiento (TABLA MAESTRA)" label="Codigo_Interno_del_Instrumento" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_-LgkiI54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-LgkiY54Eey0ftKrpS31tA" name="Codigo_ISIN_del_Instrumento" comment="Instrumento del movimiento" label="Codigo_ISIN_del_Instrumento" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_-Lgkio54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Lgki454Eey0ftKrpS31tA" name="Codigo_Interno_Cuenta_Valores" comment="Número de la cuenta de valores en Inversis" label="Codigo_Interno_Cuenta_Valores" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_-LgkjI54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-LgkjY54Eey0ftKrpS31tA" name="Clave_Externa_Cuenta_Valores" comment="Clave externa tal y como la tiene registrada la institución." label="Clave_Externa_Cuenta_Valores" length="30" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_-Lgkjo54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Lgkj454Eey0ftKrpS31tA" name="Fecha_Valor" comment="Fecha de valor de la conciliación. Formato YYYYMMDD" label="Fecha_Valor" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_-LgkkI54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-LgkkY54Eey0ftKrpS31tA" name="Numero_Participantes" comment="Número de participantes de la posición" label="Numero_Participantes" length="21" precision="9" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_-Lgkko54Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-Lgkk454Eey0ftKrpS31tA" name="Tipo_Saldo" comment="Tipo de Saldo de la Posición (TABLA MAESTRA)" label="Tipo_Saldo" length="4" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_-LgklI54Eey0ftKrpS31tA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

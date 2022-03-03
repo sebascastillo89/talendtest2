@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Z0gGoYgfEeyTse6eBkw5oA" name="FVPH" dataPackage="_Z0gGoogfEeyTse6eBkw5oA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/FVPH.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Z0gGoogfEeyTse6eBkw5oA" name="default" dataManager="_Z0gGoYgfEeyTse6eBkw5oA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Z0gGo4gfEeyTse6eBkw5oA" id="_OZ4IUIgdEeyTse6eBkw5oA" comment="FVPH – Fichero Valores Precios Históricos  Fichero de Salida mensual con los precios Históricos de Valores y Saldos de Cash  Campos numéricos, con punto en el campo decimal y con 8 decimales " label="FVPH">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGpIgfEeyTse6eBkw5oA" comment="FVPH &#x9;Alfanumérico" label="Identificativo_del_Fichero" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGpYgfEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD)" label="Fecha" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGpogfEeyTse6eBkw5oA" comment="Valores: Sinónimo Singular Bank (24XXXXX)  CASH : Sinónimo Singular Bank  &#x9;Alfanumérico " label="Cuenta" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGp4gfEeyTse6eBkw5oA" comment="Código Hydra &#x9; CASH : Siempre '978'  Alfanumérico" label="Divisa" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGqIgfEeyTse6eBkw5oA" comment="Código ISIN   CASH : Siempre 'CASH' &#x9;Alfanumérico " label="Codigo_Isin" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGqYgfEeyTse6eBkw5oA" comment="Nombre    CASH : Siempre 'Apunte de CASH'  &#x9;Alfanumérico" label="Descripcion_valor" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGqogfEeyTse6eBkw5oA" comment="CASH : Siempre 0  Numérico" label="Saldo_Titulos" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGq4gfEeyTse6eBkw5oA" comment="CASH : Siempre 0  Numérico" label="Precio_Negociacion" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGrIgfEeyTse6eBkw5oA" comment="CASH : Saldo CASH  Numérico" label="Valoracion_Negociacion" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGrYgfEeyTse6eBkw5oA" comment="CASH : Siempre 1  Numérico" label="Fixing" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGrogfEeyTse6eBkw5oA" comment="CASH : Saldo CASH  Numérico" label="Valoracion_Liquidacion" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGr4gfEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD) " label="Fecha_Precio_de_valoracion" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGsIgfEeyTse6eBkw5oA" comment="Mercado Singular Bank    CASH :  Siempre vacío   &#x9;Alfanumérico " label="Mercado" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z0gGsYgfEeyTse6eBkw5oA" comment="CASH : Siempre vacío  Numérico" label="Saldo_Titulos_Nominales" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

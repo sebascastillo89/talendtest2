@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_UWZS8ZMGEeyZPMSpGDFvZw" name="UBS_ESCHF820" id="_UWZS8JMGEeyZPMSpGDFvZw" dataPackage="_UWZS8pMGEeyZPMSpGDFvZw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF820.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_UWZS8pMGEeyZPMSpGDFvZw" name="default" dataManager="_UWZS8ZMGEeyZPMSpGDFvZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UWZS85MGEeyZPMSpGDFvZw" id="_CoTWAJMFEeyZPMSpGDFvZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS9JMGEeyZPMSpGDFvZw" comment="Identificador" label="IDENTI" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS9ZMGEeyZPMSpGDFvZw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS9pMGEeyZPMSpGDFvZw" comment="Residencia fiscal principal" label="PPAL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS95MGEeyZPMSpGDFvZw" comment="Tax residence country" label="CNTRY" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS-JMGEeyZPMSpGDFvZw" comment="Tax residence source" label="TRSRC" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS-ZMGEeyZPMSpGDFvZw" comment="Tax residence status" label="TRSTAT" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS-pMGEeyZPMSpGDFvZw" comment="TIN" label="TIN" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS-5MGEeyZPMSpGDFvZw" comment="TIN status" label="TINEST" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS_JMGEeyZPMSpGDFvZw" comment="Residencia fiscal activa" label="ACTIVA" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UWZS_ZMGEeyZPMSpGDFvZw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS_pMGEeyZPMSpGDFvZw" comment="Usuario " label="USUARI" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UWZS_5MGEeyZPMSpGDFvZw" comment="Fecha  de grabación" label="TS" length="6" talendType="id_Date"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_yqk4wI5IEey1LO245z0OYw" name="INV_2.1" dataPackage="_yqk4wY5IEey1LO245z0OYw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_2.1.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,14,34,46,56,66,84&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yqk4wY5IEey1LO245z0OYw" name="default" dataManager="_yqk4wI5IEey1LO245z0OYw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yqk4wo5IEey1LO245z0OYw" id="_fiPycI5HEey1LO245z0OYw" label="INV_2.1_N">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4w45IEey1LO245z0OYw" name="Empresa" comment="Siempre 5000" label="Empresa" length="4" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_yqk4xI5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4xY5IEey1LO245z0OYw" name="Institucion" label="Institucion" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_yqk4xo5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4x45IEey1LO245z0OYw" name="Cta_Valores_Cliente" comment="Será la misma codificación que mantenemos en el maestro de cuentas como referencia externa de la cuenta" label="Cta_Valores_Cliente" length="20" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_yqk4yI5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4yY5IEey1LO245z0OYw" name="Cod_ISIN" label="Cod_ISIN" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_yqk4yo5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4y45IEey1LO245z0OYw" name="Num_Titulos" label="Num_Titulos" length="10" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_yqk4zI5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4zY5IEey1LO245z0OYw" name="Mercado" comment="Según la codificación de Inversis(TABLA MAESTRA)" label="Mercado" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_yqk4zo5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk4z45IEey1LO245z0OYw" name="Precio_Medio" comment="12 enteros y 6 decimales" label="Precio_Medio" length="-1" precision="6" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_yqk40I5IEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yqk40Y5IEey1LO245z0OYw" name="Filler" label="Filler" length="14" talendType="id_Character">
+        <initialValue xmi:id="_yqk40o5IEey1LO245z0OYw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

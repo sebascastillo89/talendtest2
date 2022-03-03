@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zSIgcZMIEeyZPMSpGDFvZw" name="UBS_ESRSF007" dataPackage="_zSIgcpMIEeyZPMSpGDFvZw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESRSF007.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zSIgcpMIEeyZPMSpGDFvZw" name="default" dataManager="_zSIgcZMIEeyZPMSpGDFvZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zSIgc5MIEeyZPMSpGDFvZw" id="_jPHv0JMIEeyZPMSpGDFvZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zSIgdJMIEeyZPMSpGDFvZw" comment="COD.ACCOUNT OFFICER" label="F7ACOC" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zSIgdZMIEeyZPMSpGDFvZw" comment="GPN" label="F7GPNR" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

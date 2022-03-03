@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_eaBTUZGuEeye2sLDY5adkw" name="UBS_ESCHF805_Extension_personas" id="_eaBTUJGuEeye2sLDY5adkw" dataPackage="_eaBTUpGuEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF805 - Extension personas.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8" splitRecord="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_eaBTUpGuEeye2sLDY5adkw" name="default" dataManager="_eaBTUZGuEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eaBTU5GuEeye2sLDY5adkw" id="_oNjfYJGtEeye2sLDY5adkw" comment="Tabla Local ESCHF805. Datos fiscales personas - Extensión 1" label="UBS_ESCHF805_Extension_persona">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTVJGuEeye2sLDY5adkw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTVZGuEeye2sLDY5adkw" comment="Green card holder" label="GREENC" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTVpGuEeye2sLDY5adkw" comment="US Citizen" label="USCITI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTV5GuEeye2sLDY5adkw" comment="Pais doble nacionalidad" label="DOBNAC" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTWJGuEeye2sLDY5adkw" comment="US Residence" label="SUBSPH" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTWZGuEeye2sLDY5adkw" comment="VISA Holder" label="VISAHL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTWpGuEeye2sLDY5adkw" comment="VISA Type" label="VISATP" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTW5GuEeye2sLDY5adkw" comment="VISA Exp. Date" label="VISAEX" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTXJGuEeye2sLDY5adkw" comment="VISA Exception" label="EXCTXT" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTXZGuEeye2sLDY5adkw" comment="Compañía no operativa" label="NONOPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTXpGuEeye2sLDY5adkw" comment="Compañía operativa" label="COMPOPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTX5GuEeye2sLDY5adkw" comment="NTBR" label="NTBR" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTYJGuEeye2sLDY5adkw" comment="SCAP1    " label="SCAP1" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTYZGuEeye2sLDY5adkw" comment="SCAP2    " label="SCAP2" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTYpGuEeye2sLDY5adkw" comment="PEP      " label="PEP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTY5GuEeye2sLDY5adkw" comment="SIAP     " label="SIAP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTZJGuEeye2sLDY5adkw" comment="Due dilligence" label="DUEDIL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTZZGuEeye2sLDY5adkw" comment="Nacido en US" label="BORNUS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTZpGuEeye2sLDY5adkw" comment="Residente en US" label="RESUS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTZ5GuEeye2sLDY5adkw" comment="US Person" label="USPERS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTaJGuEeye2sLDY5adkw" comment="No usado" label="RESTR" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTaZGuEeye2sLDY5adkw" comment="Flag beneficial Owner OK" label="BOOK" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTapGuEeye2sLDY5adkw" comment="Más 50 Millones" label="MAS50M" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTa5GuEeye2sLDY5adkw" comment="FATCA classification" label="RECALC" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTbJGuEeye2sLDY5adkw" comment="CNAE                    " label="CNAE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTbZGuEeye2sLDY5adkw" comment="GIC                     " label="GIC" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTbpGuEeye2sLDY5adkw" comment="Industry Type" label="INDTYPE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTb5GuEeye2sLDY5adkw" comment="Categoria FATCA" label="CATFATCA" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTcJGuEeye2sLDY5adkw" comment="GIIN" label="GIIN" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTcZGuEeye2sLDY5adkw" comment="US indicia" label="USINDI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTcpGuEeye2sLDY5adkw" comment="Fecha US indicia" label="FECUSIND" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTc5GuEeye2sLDY5adkw" comment="US Contact" label="USCONT" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTdJGuEeye2sLDY5adkw" comment="Usuario Ult. Modif" label="USUMOD" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTdZGuEeye2sLDY5adkw" comment="Fecha Ult. Modif" label="FECHAMOD" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTdpGuEeye2sLDY5adkw" comment="SPONSOR" label="SPONSOR" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTd5GuEeye2sLDY5adkw" comment="AEI CLASSIFICATION" label="AEICLA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTeJGuEeye2sLDY5adkw" comment="GIIN_SPONSOR" label="GIINSPO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTeZGuEeye2sLDY5adkw" comment="CODIGO LEI" label="LEI" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eaBTepGuEeye2sLDY5adkw" comment="STATUS CODIGO LEI" label="STATLEI" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

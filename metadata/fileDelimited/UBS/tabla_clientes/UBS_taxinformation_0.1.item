@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_aM2BkZMJEeyZPMSpGDFvZw" name="UBS_taxinformation" id="_aM2BkJMJEeyZPMSpGDFvZw" dataPackage="_aM2BkpMJEeyZPMSpGDFvZw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/taxinformation.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aM2BkpMJEeyZPMSpGDFvZw" name="default" dataManager="_aM2BkZMJEeyZPMSpGDFvZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aM2Bk5MJEeyZPMSpGDFvZw" id="_6GV_MJMIEeyZPMSpGDFvZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BlJMJEeyZPMSpGDFvZw" comment="Tax information id" label="txi_code" length="18" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BlZMJEeyZPMSpGDFvZw" comment="Tax Identification Number" label="txi_tin" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BlpMJEeyZPMSpGDFvZw" comment="Fiscal Identification Type" label="txi_fit_code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2Bl5MJEeyZPMSpGDFvZw" comment="Issuing Country" label="txi_issuing_country" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BmJMJEeyZPMSpGDFvZw" comment="This field contains the date of issue of the origin of the fiscal identification number (passport or others). It must be a valid date." label="txi_issuing_date" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BmZMJEeyZPMSpGDFvZw" comment="Place of Birth - Country" label="txi_birth_country" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BmpMJEeyZPMSpGDFvZw" comment="Place of Birth - Town" label="txi_birth_town" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2Bm5MJEeyZPMSpGDFvZw" comment="Member Identity and Residence (Family name)" label="txi_member_address1" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BnJMJEeyZPMSpGDFvZw" comment="Member Identity and Residence (Firstname)" label="txi_member_address2" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BnZMJEeyZPMSpGDFvZw" comment="Member Identity and Residence (street1)" label="txi_member_address3" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BnpMJEeyZPMSpGDFvZw" comment="Member Identity and Residence (street2)" label="txi_member_address4" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2Bn5MJEeyZPMSpGDFvZw" comment="Member city" label="txi_city" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BoJMJEeyZPMSpGDFvZw" comment="Member zip code" label="txi_zip" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BoZMJEeyZPMSpGDFvZw" comment="Código de cliente" label="txi_cst" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BopMJEeyZPMSpGDFvZw" comment="Non-account holder code" label="txi_nah" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2Bo5MJEeyZPMSpGDFvZw" comment="Creation date" label="txi_date_c" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BpJMJEeyZPMSpGDFvZw" comment="Modification date" label="txi_date_m" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BpZMJEeyZPMSpGDFvZw" comment="Last user" label="txi_user" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BppMJEeyZPMSpGDFvZw" comment="Status" label="txi_status" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2Bp5MJEeyZPMSpGDFvZw" comment="Issuing authority" label="txi_issuing_authority" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aM2BqJMJEeyZPMSpGDFvZw" comment="Tax Id (Mexico)" label="txi_tin_curp" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

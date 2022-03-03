@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zzGWoYWuEeygN7TjzSqxqQ" name="FNMX_02_reg_cuentas" dataPackage="_zzGWooWuEeygN7TjzSqxqQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/02_reg_cuentas_YYYYYMMDD.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zzGWooWuEeygN7TjzSqxqQ" name="default" dataManager="_zzGWoYWuEeygN7TjzSqxqQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zzGWo4WuEeygN7TjzSqxqQ" id="_0S3twIWsEeygN7TjzSqxqQ" comment="El fichero de cuentas es un fichero que relaciona las cuentas con las carteras (antes debe haberse cargado el fichero de carteras Reg 1)" label="FNMX_02_reg_cuentas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWpIWuEeygN7TjzSqxqQ" comment="Código que determina el tipo de registro (carteras, clientes, cuentas…) 02 (siempre)" label="registro" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zzGWpYWuEeygN7TjzSqxqQ" body="02"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWpoWuEeygN7TjzSqxqQ" comment="Nombre del depositario guardado en Configuración->ENTIDADES Uso Siempre" label="depositario_cuenta" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zzGWp4WuEeygN7TjzSqxqQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWqIWuEeygN7TjzSqxqQ" comment="Código de la Cartera Uso Siempre" label="codigo_cartera" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWqYWuEeygN7TjzSqxqQ" comment="Código de la Cuenta dentro de la cartera Uso Siempre" label="codigo_cuenta" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWqoWuEeygN7TjzSqxqQ" comment="CC-> Liquidez CCV-> Valores ICV Intermediación PCC-> Corriente de crédito Uso Siempre" label="tipo_cuenta" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWq4WuEeygN7TjzSqxqQ" comment="Divisa de la cuenta en código ISO(actualmente EUR por defecto) Uso Siempre" label="divisa_cuenta" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zzGWrIWuEeygN7TjzSqxqQ" comment="A->Activada (opción por defecto) B->Bloqueada D->Desactivada Uso Siempre" label="estado_cuenta" length="-1" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zzGWrYWuEeygN7TjzSqxqQ" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

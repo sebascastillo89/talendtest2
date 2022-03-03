@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Mxkt8YXREeygN7TjzSqxqQ" name="FNMX_03.1_reg_mifid" dataPackage="_Mxkt8oXREeygN7TjzSqxqQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/03.1_reg_mifid_YYYYMMDD.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Mxkt8oXREeygN7TjzSqxqQ" name="default" dataManager="_Mxkt8YXREeygN7TjzSqxqQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Mxkt84XREeygN7TjzSqxqQ" id="_ovZgMIXQEeygN7TjzSqxqQ" comment="Registro de clientes MIFID-Conveniencia(Registro nº 03.1)&#x9; reg_mifid_YYYYMMDD.csv" label="FNMX_03.1_reg_mifid">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt9IXREeygN7TjzSqxqQ" comment="Código que determina el tipo de registro (Mifd y conveniencia)&#x9;031 (siempre)&#x9;Siempre" label="registro" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_FPBIwJAUEeyAyoR5JFYqLg" body="031"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt9YXREeygN7TjzSqxqQ" comment="NIF, NIE, Pasaporte o CIF&#x9;Char&#x9;Siempre" label="documento_identidad" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt9oXREeygN7TjzSqxqQ" comment="Nivel de conveniencia del cliente. “Nivel” TABLA 6&#x9;Char (1)&#x9;Siempre" label="perfil_Inversor_conveniencia" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt94XREeygN7TjzSqxqQ" comment="0: Situación financiera nula 1: Situación financiera baja 2: Situación financiera media 3: Situación financiera alta&#x9;Char (1)&#x9;Siempre" label="situacion_financiera" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Mxkt-IXREeygN7TjzSqxqQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt-YXREeygN7TjzSqxqQ" comment="El cliente tiene conocimientos y experiencia: S-> SÍ N-> NO&#x9;Char (1)&#x9;Siempre " label="conocim_experiencia" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt-oXREeygN7TjzSqxqQ" comment="Equivalencia Nº Orden Riesgo resultado test de idoneidad 0.&#x9;No perfilado 1.&#x9;Conservador 2.&#x9;Prudente 3.&#x9;Flexible 4.&#x9;Decidido 5.&#x9;Arriesgado&#x9;Char (1)&#x9;Siempre" label="Riesgo" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt-4XREeygN7TjzSqxqQ" comment="Tipo de productos convenientes para el cliente.”Clase” de TABLA 5&#x9;Char (1)&#x9;Siempre" label="conveniencia" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mxkt_IXREeygN7TjzSqxqQ" comment="Cliente puede contratar productos complejos S-> SÍ N-> NO&#x9;Char (1)&#x9;Siempre" label="complejos" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

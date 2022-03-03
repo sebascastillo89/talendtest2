@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LZAn4ZGrEeye2sLDY5adkw" name="UBS_TOF_customer" id="_LZAn4JGrEeye2sLDY5adkw" dataPackage="_LZAn4pGrEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/TOF - customer.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LZAn4pGrEeye2sLDY5adkw" name="default" dataManager="_LZAn4ZGrEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LZAn45GrEeye2sLDY5adkw" id="_C1qjQJGqEeye2sLDY5adkw" label="TOF_customer">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn5JGrEeye2sLDY5adkw" comment="Número de cliente, ej. 100000" label="cst_number" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn5ZGrEeye2sLDY5adkw" comment="Fecha creación" label="cst_date_c" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn5pGrEeye2sLDY5adkw" comment="Fecha ult. Modificación" label="cst_date_m" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn55GrEeye2sLDY5adkw" comment="Usuario últ. Modificación" label="cst_user" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn6JGrEeye2sLDY5adkw" comment="Status (A)ctivo,(B)loqueado, (R)elacionado…" label="cst_status" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn6ZGrEeye2sLDY5adkw" comment="Tipo de cliente (este campo, junto con cst_civ_jur, marca al cliente como titular, autorizado, apoderado, jurídico, etc)" label="cst_type" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn6pGrEeye2sLDY5adkw" comment="Nombre" label="cst_name" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn65GrEeye2sLDY5adkw" comment="Nombre para informes" label="cst_rpt_name" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn7JGrEeye2sLDY5adkw" comment="Nombre corto" label="cst_short_name" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn7ZGrEeye2sLDY5adkw" comment="Dirección campo 1" label="cst_addr_1" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn7pGrEeye2sLDY5adkw" comment="Dirección campo 2" label="cst_addr_2" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn75GrEeye2sLDY5adkw" comment="Dirección campo 3" label="cst_addr_3" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn8JGrEeye2sLDY5adkw" comment="Ciudad" label="cst_city" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn8ZGrEeye2sLDY5adkw" comment="código ciudad" label="cst_short_city" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn8pGrEeye2sLDY5adkw" comment="código postal" label="cst_zip" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn85GrEeye2sLDY5adkw" comment="Pais" label="cst_country" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn9JGrEeye2sLDY5adkw" comment="Pais idioma" label="cst_lang" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn9ZGrEeye2sLDY5adkw" comment="Pais ciudadanía" label="cst_citizen" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn9pGrEeye2sLDY5adkw" comment="Lugar de nacimiento" label="cst_birth_plac" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn95GrEeye2sLDY5adkw" comment="Fecha de nacimiento" label="cst_birth_date" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn-JGrEeye2sLDY5adkw" comment="Tipo de documento de identidad" label="cst_doc_iden" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn-ZGrEeye2sLDY5adkw" comment="Documento de identidad" label="cst_doc_num" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn-pGrEeye2sLDY5adkw" comment="Fecha del documento" label="cst_doc_date" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn-5GrEeye2sLDY5adkw" comment="Lugar de emisión del documento" label="cst_doc_where" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn_JGrEeye2sLDY5adkw" comment="Actividad" label="cst_activity" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn_ZGrEeye2sLDY5adkw" comment="Status jurídico" label="cst_civ_jur" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn_pGrEeye2sLDY5adkw" comment="Teléfono 1" label="cst_phone_p" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAn_5GrEeye2sLDY5adkw" comment="Teléfono 2" label="cst_phone_b" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoAJGrEeye2sLDY5adkw" comment="Telex" label="cst_telex" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoAZGrEeye2sLDY5adkw" comment="Fax" label="cst_fax" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoApGrEeye2sLDY5adkw" comment="IBLC code" label="cst_iblc" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoA5GrEeye2sLDY5adkw" comment="Customer nature" label="cst_nature" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoBJGrEeye2sLDY5adkw" comment="Geographical risk country code - refer to &quot;country&quot; table" label="cst_risk" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoBZGrEeye2sLDY5adkw" comment="Retención de mail" label="cst_hold_mail" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoBpGrEeye2sLDY5adkw" comment="Si el cliente puede tener más de un mail" label="cst_adr_mail" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoB5GrEeye2sLDY5adkw" comment="Cuenta numerada" label="cst_num_acc" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoCJGrEeye2sLDY5adkw" comment="Account manager" label="cst_acc_mngr" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoCZGrEeye2sLDY5adkw" comment="Account officer" label="cst_acc_off" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoCpGrEeye2sLDY5adkw" comment="Commercial agent or referral - refer to &quot;comagent&quot; table" label="cst_agent" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoC5GrEeye2sLDY5adkw" comment="Moneda del cliente" label="cst_ccy" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoDJGrEeye2sLDY5adkw" comment="Moneda del cliente" label="cst_wrk_ccy" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoDZGrEeye2sLDY5adkw" comment="Actual starting date of the performance process" label="cst_pfp_start" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoDpGrEeye2sLDY5adkw" comment="No documentado" label="cst_pfp_cap" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoD5GrEeye2sLDY5adkw" comment="Management type (junto con management profile configura el tipo de cuenta)" label="cst_mngt_type" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoEJGrEeye2sLDY5adkw" comment="Management profile" label="cst_mngt_prof" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoEZGrEeye2sLDY5adkw" comment="Is this customer can have more than one portfolio - (Y)es - (N)o" label="cst_multi" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoEpGrEeye2sLDY5adkw" comment="No documentado" label="cst_acs_dep" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoE5GrEeye2sLDY5adkw" comment="Not used in TOF" label="cst_center" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoFJGrEeye2sLDY5adkw" comment="Sucursal" label="cst_department" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoFZGrEeye2sLDY5adkw" comment="Is this account need different signatures - (Y)es - (N)o" label="cst_signpower" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoFpGrEeye2sLDY5adkw" comment="&quot;(S) Individual&#xA;(J) Joint&#xA;(O) Other&quot;" label="cst_singlejoin" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoF5GrEeye2sLDY5adkw" comment="Secret code ¿tipo de FIM?" label="cst_secretcode" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoGJGrEeye2sLDY5adkw" comment="Entitled code" label="cst_entitled" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoGZGrEeye2sLDY5adkw" comment="Phone discharge" label="cst_phone_dis" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoGpGrEeye2sLDY5adkw" comment="&quot;&#x9;&#xA;Is customer enquiry must be trailed - N = No (No audit trail), Y= Yes(not mandatory), et B=Blocking (mandatory to input a text in Audit Trail) description)&quot;" label="cst_inq_trail" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoG5GrEeye2sLDY5adkw" comment="&quot;&#x9;&#xA;Attach customer model - refer to &quot;&quot;customer&quot;&quot; table&quot;" label="cst_model" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoHJGrEeye2sLDY5adkw" comment="Branch code (siempre MAD)" label="cst_branch" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoHZGrEeye2sLDY5adkw" comment="RETL (retail) o PROF (profesional)" label="cst_classification" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoHpGrEeye2sLDY5adkw" comment="Party Capacity Indicator " label="cst_capacity_ind" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoH5GrEeye2sLDY5adkw" comment="International Business Entity Identifier" label="cst_ibei_code" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoIJGrEeye2sLDY5adkw" comment="Appropriateness test" label="cst_appro_test" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoIZGrEeye2sLDY5adkw" comment="Fecha de appropriateness test" label="cst_appro_date" length="-1" talendType="id_Date">
+        <initialValue xmi:id="_LZAoIpGrEeye2sLDY5adkw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoI5GrEeye2sLDY5adkw" comment="Suitability test" label="cst_suit_test" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoJJGrEeye2sLDY5adkw" comment="Fecha suitability test" label="cst_suit_date" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LZAoJZGrEeye2sLDY5adkw" comment="Fecha de clasificación investor capacity" label="cst_classif_date" length="-1" talendType="id_Date"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

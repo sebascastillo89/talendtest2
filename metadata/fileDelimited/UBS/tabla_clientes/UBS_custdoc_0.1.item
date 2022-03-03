@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_QOy9QZrOEeykoL-XAui7XA" name="UBS_custdoc" dataPackage="_QOy9QprOEeykoL-XAui7XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/custdoc.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QOy9QprOEeykoL-XAui7XA" name="default" dataManager="_QOy9QZrOEeykoL-XAui7XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QOy9Q5rOEeykoL-XAui7XA" id="_E_NU0JrNEeykoL-XAui7XA" comment="Relación de clientes/documentos" label="UBS_custdoc">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9RJrOEeykoL-XAui7XA" comment="Customer number - refer to &quot;customer&quot; table" label="cdc_customer" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9RZrOEeykoL-XAui7XA" comment="Document code - refer to &quot;docum&quot; table" label="cdc_doc_code" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9RprOEeykoL-XAui7XA" comment="Record creation date" label="cdc_date_c" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9R5rOEeykoL-XAui7XA" comment="Last record modification date" label="cdc_date_m" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9SJrOEeykoL-XAui7XA" comment="user code who made the last modification" label="cdc_user" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9SZrOEeykoL-XAui7XA" comment="No documentado" label="cdc_status" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9SprOEeykoL-XAui7XA" comment="Date when document was requested from the customer" label="cdc_ask_date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9S5rOEeykoL-XAui7XA" comment="Date when document was signed by the customer" label="cdc_sign_date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9TJrOEeykoL-XAui7XA" comment="Maturity date of document (if need it ...)" label="cdc_end_date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9TZrOEeykoL-XAui7XA" comment="Internal reference of document" label="cdc_reference" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9TprOEeykoL-XAui7XA" comment="Free text to describe some actions ..." label="cdc_memo" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOy9T5rOEeykoL-XAui7XA" comment="Scanning file name where the document is stored" label="cdc_scan" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_DUwjwI8dEeyCY5FxK9e4aQ" name="INV_5.3" dataPackage="_DUxK0I8dEeyCY5FxK9e4aQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_5.3.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,15,27,41,61&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DUxK0I8dEeyCY5FxK9e4aQ" name="default" dataManager="_DUwjwI8dEeyCY5FxK9e4aQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DUxK0Y8dEeyCY5FxK9e4aQ" id="_IBEXUI8cEeyCY5FxK9e4aQ" comment="Fichero estándar de Conciliación de Posición Renta fija" label="INV_5.3">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DUxK0o8dEeyCY5FxK9e4aQ" name="Empresa" comment="Siempre 5000" label="Empresa" length="4" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_DUxK048dEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DUxK1I8dEeyCY5FxK9e4aQ" name="Institucion" label="Institucion" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_DUxK1Y8dEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DUxK1o8dEeyCY5FxK9e4aQ" name="Cod_ISIN" label="Cod_ISIN" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_DUxK148dEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DUxK2I8dEeyCY5FxK9e4aQ" name="Nominal" label="Nominal" length="14" precision="4" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_DUxK2Y8dEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DUxK2o8dEeyCY5FxK9e4aQ" name="Cta_Valores_Cliente" comment="erá la misma codificación que mantenemos en el maestro de cuentas como referencia externa de la cuenta" label="Cta_Valores_Cliente" length="20" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_DUxK248dEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DUxK3I8dEeyCY5FxK9e4aQ" name="Mercado" comment="Según codificación de Inversis (TABLA MAESTRA)" label="Mercado" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_DUxK3Y8dEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

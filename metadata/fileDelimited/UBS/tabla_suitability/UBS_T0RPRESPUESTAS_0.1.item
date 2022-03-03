@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_8Ft9gZMqEeyR7ZhWbXG_XA" name="UBS_T0RPRESPUESTAS" dataPackage="_8Ft9gpMqEeyR7ZhWbXG_XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0RPRESPUESTAS.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8Ft9gpMqEeyR7ZhWbXG_XA" name="default" dataManager="_8Ft9gZMqEeyR7ZhWbXG_XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8Ft9g5MqEeyR7ZhWbXG_XA" id="_pB5uUJMqEeyR7ZhWbXG_XA" comment="Tabla de respuestas para cada pregunta del risk profile" label="UBS_T0RPRESPUESTAS">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8Ft9hJMqEeyR7ZhWbXG_XA" comment="Identificador del risk profile" label="IDRISKPROF" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8Ft9hZMqEeyR7ZhWbXG_XA" comment="Identificador de la respuesta" label="IDPREGUNTA" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8Ft9hpMqEeyR7ZhWbXG_XA" comment="Respuesta (JSON)" label="RESPUESTA" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

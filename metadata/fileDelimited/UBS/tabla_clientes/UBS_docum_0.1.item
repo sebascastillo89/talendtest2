@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_0ymjUJrMEeykoL-XAui7XA" name="UBS_docum" dataPackage="_0ymjUZrMEeykoL-XAui7XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/docum.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_0ymjUZrMEeykoL-XAui7XA" name="default" dataManager="_0ymjUJrMEeykoL-XAui7XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0ymjUprMEeykoL-XAui7XA" id="_lI_moJrLEeykoL-XAui7XA" comment="Lista de documentos existentes" label="UBS_docum">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjU5rMEeykoL-XAui7XA" comment="Código de documento" label="doc_code" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjVJrMEeykoL-XAui7XA" comment="Fecha de creación" label="doc_date_c" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjVZrMEeykoL-XAui7XA" comment="Fecha de modificación" label="doc_date_m" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy hh:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjVprMEeykoL-XAui7XA" comment="Usuario" label="doc_user" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjV5rMEeykoL-XAui7XA" comment="Estado" label="doc_status" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjWJrMEeykoL-XAui7XA" comment="Descripción del documento" label="doc_desc_int" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ymjWZrMEeykoL-XAui7XA" comment="Comentarios del documento" label="doc_remark" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_0ymjWprMEeykoL-XAui7XA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

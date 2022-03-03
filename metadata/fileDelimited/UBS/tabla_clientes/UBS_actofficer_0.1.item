@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Y2OCUZMIEeyZPMSpGDFvZw" name="UBS_actofficer" dataPackage="_Y2OCUpMIEeyZPMSpGDFvZw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/actofficer.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Y2OCUpMIEeyZPMSpGDFvZw" name="default" dataManager="_Y2OCUZMIEeyZPMSpGDFvZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Y2OCU5MIEeyZPMSpGDFvZw" id="_Uh90UJMHEeyZPMSpGDFvZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCVJMIEeyZPMSpGDFvZw" comment="Officer / manager code" label="aod_code" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCVZMIEeyZPMSpGDFvZw" comment="Record creation date" label="aod_date_c" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCVpMIEeyZPMSpGDFvZw" comment="Record last modification date" label="aod_date_m" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCV5MIEeyZPMSpGDFvZw" comment="User code who made the last modification" label="aod_user" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCWJMIEeyZPMSpGDFvZw" comment="Record status - (A)ctive - (B)locked - (C)anceled" label="aod_status" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCWZMIEeyZPMSpGDFvZw" comment="Officer / manager description" label="aod_desc" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCWpMIEeyZPMSpGDFvZw" comment="Attach group / department code - refer to &quot;department&quot; table" label="aod_department" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCW5MIEeyZPMSpGDFvZw" comment="Officer / manger internal number --> relación con customer.cst_acc_off" label="aod_number" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCXJMIEeyZPMSpGDFvZw" label="aod_type" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCXZMIEeyZPMSpGDFvZw" comment="Direct phone number" label="aod_phone" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y2OCXpMIEeyZPMSpGDFvZw" comment="Phone extention number" label="aod_phone_ext" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

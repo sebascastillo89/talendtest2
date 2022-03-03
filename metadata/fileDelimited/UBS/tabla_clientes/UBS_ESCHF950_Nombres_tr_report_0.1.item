@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_RkwboZGvEeye2sLDY5adkw" name="UBS_ESCHF950_Nombres_tr_report" dataPackage="_RkwbopGvEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF950 - Nombres tr report.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RkwbopGvEeye2sLDY5adkw" name="default" dataManager="_RkwboZGvEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Rkwbo5GvEeye2sLDY5adkw" id="__Y2r4JGuEeye2sLDY5adkw" comment="Tabla Local ESCHF950. Nombres para transaction reporting" label="UBS_ESCHF950_Nombres_tr_report">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkwbpJGvEeye2sLDY5adkw" comment="Id.Fiscal" label="F91001" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkwbpZGvEeye2sLDY5adkw" comment="Apellido1 Transaction reporting" label="F91002" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkwbppGvEeye2sLDY5adkw" comment="Apellido2 Transaction Reporting" label="F91003" length="70" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rkwbp5GvEeye2sLDY5adkw" comment="Nombre Transaction Reporting" label="F91004" length="140" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_ZYIQUI9JEeylLNVcrfwxkg" name="INV_4.5" dataPackage="_ZYIQUY9JEeylLNVcrfwxkg" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_4.5.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,15,24,32,47,75,103,112,122,134,135,136,145,147,159,162,202,242,282,292,293,296,298,300,305&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ZYIQUY9JEeylLNVcrfwxkg" name="default" dataManager="_ZYIQUI9JEeylLNVcrfwxkg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ZYIQUo9JEeylLNVcrfwxkg" id="_yyUBII9IEeylLNVcrfwxkg" comment="4.5_Fichero para para contratar un plan en una cuenta o añadir aportantes y/o beneficiarios de un plan de pensiones ya contratado" label="INV_4.5">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZYIQU49JEeylLNVcrfwxkg" name="Empresa" comment="Siempre 5000" label="Empresa" length="4" talendType="id_Character">
+        <initialValue xmi:id="_ZYIQVI9JEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VgNuII9KEeylLNVcrfwxkg" name="Institucion" label="Institucion" length="10" talendType="id_Character">
+        <initialValue xmi:id="_fz3IMI9KEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_UekI9LEeylLNVcrfwxkg" name="Codigo_Interno" label="Codigo_Interno" length="9" talendType="id_Integer">
+        <initialValue xmi:id="_vSkccI9LEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eKpHoI9KEeylLNVcrfwxkg" name="Fecha_Trasmision" comment="Formato YYYYMMDD" label="Fecha_Trasmision" length="8" talendType="id_Character">
+        <initialValue xmi:id="_lbSqwI9KEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eMx1oI9KEeylLNVcrfwxkg" name="Tipo_Fichero" comment="“CUENTAPLAN” o “APORBENEFPP”" label="Tipo_Fichero" length="15" talendType="id_Character">
+        <initialValue xmi:id="_qF0gMI9KEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eOHSYI9KEeylLNVcrfwxkg" name="Numero_Cuenta_Externa_de_Cliente" comment="Cta. Plan Externa" label="Numero_Cuenta_Externa_de_Cliente" length="28" talendType="id_Character">
+        <initialValue xmi:id="_yBpHQI9KEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eP4M8I9KEeylLNVcrfwxkg" name="Numero_Cuenta_Inversis" comment="Cta. Plan Inversis" label="Numero_Cuenta_Inversis" length="28" talendType="id_Character">
+        <initialValue xmi:id="_09xhMI9KEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xcjnwI9LEeylLNVcrfwxkg" name="Codigo_Instrumento" label="Codigo_Instrumento" length="9" talendType="id_Integer">
+        <initialValue xmi:id="_4buZUI9LEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xgJHQI9LEeylLNVcrfwxkg" name="Codigo_Mercado" comment="PES" label="Codigo_Mercado" length="10" talendType="id_Character">
+        <initialValue xmi:id="_HVaKYI9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DvZF8I9MEeylLNVcrfwxkg" name="Codigo_ISIN" label="Codigo_ISIN" length="12" talendType="id_Character">
+        <initialValue xmi:id="_LM71kI9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DygrYI9MEeylLNVcrfwxkg" name="Accion" comment="A – Inserción, B – Baja Solo permitida “B” para Tipo de Fichero “APORBENEFPP”" label="Accion" length="1" talendType="id_Character">
+        <initialValue xmi:id="_Pd4GUI9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D0kg4I9MEeylLNVcrfwxkg" name="Codigo_Tipo_Participe_Aportante_Beneficiario" comment="P – Partícipe, F – Familiar, B – Beneficiario ,  A - Promotor. Solo permitidas “A”, “B” y “F” para Tipo de Fichero &quot;APORBENEFPP”" label="Codigo_Tipo_Participe_Aportante_Beneficiario" length="1" talendType="id_Character">
+        <initialValue xmi:id="_c-aTII9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YbQ4EI9MEeylLNVcrfwxkg" name="Dato_Persona" label="Dato_Persona" length="9" talendType="id_Integer">
+        <initialValue xmi:id="_pq3-sI9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ye-TYI9MEeylLNVcrfwxkg" name="Tipo_Documento" comment="Según tabla maestra" label="Tipo_Documento" length="2" talendType="id_Character">
+        <initialValue xmi:id="_ro1gMI9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yw37sI9MEeylLNVcrfwxkg" name="Numero_Documento" comment="Número de Documento justificado a la izquierda. P.E: “12345678A “" label="Numero_Documento" length="12" talendType="id_Character">
+        <initialValue xmi:id="_vugVEI9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_D2kE8I9MEeylLNVcrfwxkg" name="Pais_Residencia_de_Participe_Aportante_Beneficiario" label="Pais_Residencia_de_Participe_Aportante_Beneficiario" length="3" talendType="id_Character">
+        <initialValue xmi:id="_1i-1II9MEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2wAB4I9MEeylLNVcrfwxkg" name="Nombre_Participe_Aportante_Beneficiario" label="Nombre_Participe_Aportante_Beneficiario" length="40" talendType="id_Character">
+        <initialValue xmi:id="_BOlgoI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2xczYI9MEeylLNVcrfwxkg" name="Apellido_1" label="Apellido_1" length="40" talendType="id_Character">
+        <initialValue xmi:id="_HPiWcI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2y3IoI9MEeylLNVcrfwxkg" name="Apellido_2" label="Apellido_2" length="40" talendType="id_Character">
+        <initialValue xmi:id="_JYCUAI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_20VvUI9MEeylLNVcrfwxkg" name="Grado_Parentesco_con_Titular" comment="HERMANO CONYUGE TIO PADRES ABUELOS BISABUELOS HIJOS SOBRINOS NIETOS SUEGROS CUÑADOS (*) Solo requerido para Tipo de Fichero &quot;APORBENEFPP”" label="Grado_Parentesco_con_Titular" length="10" talendType="id_Character">
+        <initialValue xmi:id="_NrY_kI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_21wEkI9MEeylLNVcrfwxkg" name="Situacion_Personal" comment="J – jubilado; N – no jubilado" label="Situacion_Personal" length="1" talendType="id_Character">
+        <initialValue xmi:id="_cAom0I9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eRfPII9NEeylLNVcrfwxkg" name="Grado_Minusvalia" comment="% de minusvalía (*) para el Tipo de Fichero &quot;CUENTAPLAN&quot;" label="Grado_Minusvalia" length="3" talendType="id_Integer">
+        <initialValue xmi:id="_gyjdsI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eTZToI9NEeylLNVcrfwxkg" name="Tipo_Saldo" comment="FA = Fallecimiento JU = Jubilación (*) para el Tipo de Fichero &quot;CUENTAPLAN&quot;" label="Tipo_Saldo" length="2" talendType="id_Character">
+        <initialValue xmi:id="_o2KHwI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eU9Z4I9NEeylLNVcrfwxkg" name="Provincia_Participe_Aportante_Beneficiario" label="Provincia_Participe_Aportante_Beneficiario" length="2" talendType="id_Character">
+        <initialValue xmi:id="_wnmq0I9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eWr4MI9NEeylLNVcrfwxkg" name="Porcentaje_Beneficiario" comment="Solo requerido para Tipo de Fichero “APORBENEFPP” si no viene cumplimentando indica que el porcentaje corresponde al 100,00" label="Porcentaje_Beneficiario" length="5" precision="2" talendType="id_Float">
+        <initialValue xmi:id="_0WO4sI9NEeylLNVcrfwxkg" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-uWjEI9NEeylLNVcrfwxkg" name="Filler" label="Filler" length="113" talendType="id_Character"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

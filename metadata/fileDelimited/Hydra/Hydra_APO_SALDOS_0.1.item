@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pX5x0IqKEeyx9_Vtg1rFDw" name="Hydra_APO_SALDOS" dataPackage="_pX5x0YqKEeyx9_Vtg1rFDw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/APO_SALDOS.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pX5x0YqKEeyx9_Vtg1rFDw" name="default" dataManager="_pX5x0IqKEeyx9_Vtg1rFDw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pX5x0oqKEeyx9_Vtg1rFDw" id="_W0TwQIqJEeyx9_Vtg1rFDw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pX5x04qKEeyx9_Vtg1rFDw" label="Numero_de_cuenta" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pX5x1IqKEeyx9_Vtg1rFDw" comment="Código ISO numérico" label="Divisa" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pX5x1YqKEeyx9_Vtg1rFDw" label="Importe" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

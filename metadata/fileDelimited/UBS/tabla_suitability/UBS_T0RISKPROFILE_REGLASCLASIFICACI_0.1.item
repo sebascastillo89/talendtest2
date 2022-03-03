@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_T4qqwJMqEeyR7ZhWbXG_XA" name="UBS_T0RISKPROFILE_REGLASCLASIFICACI" dataPackage="_T4qqwZMqEeyR7ZhWbXG_XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0RISKPROFILE_REGLASCLASIFICACI.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_T4qqwZMqEeyR7ZhWbXG_XA" name="default" dataManager="_T4qqwJMqEeyR7ZhWbXG_XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_T4qqwpMqEeyR7ZhWbXG_XA" id="_HvcroJMpEeyR7ZhWbXG_XA" comment="Tabla de reglas de clasificación" label="UBS_T0RISKPROFILE_REGLASCLASIFICACI">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqw5MqEeyR7ZhWbXG_XA" comment="Identificador de la regla" label="IDREGLA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqxJMqEeyR7ZhWbXG_XA" comment="Requiere experiencia" label="SIN_EXPERIENCIA" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqxZMqEeyR7ZhWbXG_XA" comment="Regla de productos complejos" label="COMPLEJO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqxpMqEeyR7ZhWbXG_XA" comment="Nombre de la clase de activo" label="NOMBRE_CLASE_ACTIVO" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqx5MqEeyR7ZhWbXG_XA" comment="Lista de NOAs implicados (JSON)" label="NOAS" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqyJMqEeyR7ZhWbXG_XA" comment="Clasificación para estructurados (JSON)" label="TIPO_ESTRUCTURADO" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqyZMqEeyR7ZhWbXG_XA" comment="Clasificación para GAT (JSON)" label="CLASIFICACION_GAT" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqypMqEeyR7ZhWbXG_XA" comment="Indicador de UCIT para la clasificación (NOUSADO, SI, NO)" label="INDICADOR_UCIT" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqy5MqEeyR7ZhWbXG_XA" comment="Orden de aplicación, prioridad" label="ORDEN_APLICACION" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqzJMqEeyR7ZhWbXG_XA" comment="Preguntas para el test (JSON)" label="PREGUNTAS" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqzZMqEeyR7ZhWbXG_XA" comment="Indicador de si la regla está activa" label="ACTIVA" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqzpMqEeyR7ZhWbXG_XA" comment="Orden de aparición en informes" label="ORDEN_APARICION" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qqz5MqEeyR7ZhWbXG_XA" comment="Concentración máxima autorizada (tanto por uno)" label="CONCENTRACION_MAXIMA" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qq0JMqEeyR7ZhWbXG_XA" comment="Nombre de la clase en inglés" label="NOMBRE_CLASE_ACTIVO_INGLES" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qq0ZMqEeyR7ZhWbXG_XA" comment="Nombre de la clase en catalán" label="NOMBRE_CLASE_ACTIVO_CATALAN" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qq0pMqEeyR7ZhWbXG_XA" comment="No usado" label="CODIGO_DOCUMENTO_TOF" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_T4qq05MqEeyR7ZhWbXG_XA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T4qq1JMqEeyR7ZhWbXG_XA" comment="Regla que restringe la edad (&lt;80 años)" label="RESTRINGIDAD_EDAD" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_T4qq1ZMqEeyR7ZhWbXG_XA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

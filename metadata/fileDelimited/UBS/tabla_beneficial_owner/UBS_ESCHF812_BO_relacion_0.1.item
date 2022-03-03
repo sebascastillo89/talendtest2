@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_N5x-kJDGEeye2sLDY5adkw" name="UBS_ESCHF812_BO_relacion" dataPackage="_N5x-kZDGEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF812 - BO relacion.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="“Þ”" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_N5x-kZDGEeye2sLDY5adkw" name="default" dataManager="_N5x-kJDGEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_N5x-kpDGEeye2sLDY5adkw" id="_lr920JDFEeye2sLDY5adkw" label="UBS_ESCHF812_BO_relacion">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5x-k5DGEeye2sLDY5adkw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5x-lJDGEeye2sLDY5adkw" comment="NIF del beneficial owner" label="NIFBO" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N5x-lZDGEeye2sLDY5adkw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5x-lpDGEeye2sLDY5adkw" comment="Porcentaje de participación" label="PPARTI" length="5" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5x-l5DGEeye2sLDY5adkw" comment="Fecha de alta" label="FHALTA" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5x-mJDGEeye2sLDY5adkw" comment="Fecha de baja" label="FHBAJA" length="-1" talendType="id_Date">
+        <initialValue xmi:id="_N5x-mZDGEeye2sLDY5adkw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N5x-mpDGEeye2sLDY5adkw" comment="Tipo AEI de persona de control" label="AEICPT" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_N5x-m5DGEeye2sLDY5adkw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

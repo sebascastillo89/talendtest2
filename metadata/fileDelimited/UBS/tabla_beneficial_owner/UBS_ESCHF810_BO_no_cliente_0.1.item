@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_xL0TYZDHEeye2sLDY5adkw" name="UBS_ESCHF810_BO_no_cliente" dataPackage="_xL0TYpDHEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF810 - BO no cliente.csv" Encoding="UTF-8" FieldSeparatorValue="“Þ”" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xL0TYpDHEeye2sLDY5adkw" name="default" dataManager="_xL0TYZDHEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xL0TY5DHEeye2sLDY5adkw" id="_h6M_8JDGEeye2sLDY5adkw" label="UBS_ESCHF810_BO_no_cliente">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TZJDHEeye2sLDY5adkw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TZZDHEeye2sLDY5adkw" comment="Nombre" label="NOMBRE" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_xL0TZpDHEeye2sLDY5adkw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TZ5DHEeye2sLDY5adkw" comment="Apellido1" label="APEL1" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TaJDHEeye2sLDY5adkw" comment="Apellido2" label="APEL2" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TaZDHEeye2sLDY5adkw" comment="Marca de físico o jurídico" label="PFPJ" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TapDHEeye2sLDY5adkw" comment="Fecha de nacimiento" label="FECNAC" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Ta5DHEeye2sLDY5adkw" comment="Tipo vía" label="TIPVIA" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TbJDHEeye2sLDY5adkw" comment="Nombre vía" label="NOMVIA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TbZDHEeye2sLDY5adkw" comment="Tipo numeración" label="TIPNUM" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TbpDHEeye2sLDY5adkw" comment="Número casa" label="NUMVIV" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tb5DHEeye2sLDY5adkw" comment="Calificador del número" label="CALNUM" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TcJDHEeye2sLDY5adkw" comment="Bloque" label="BLOQUE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TcZDHEeye2sLDY5adkw" comment="Portal" label="PORTAL" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TcpDHEeye2sLDY5adkw" comment="Escalera" label="ESCALE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tc5DHEeye2sLDY5adkw" comment="Planta" label="PLANTA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TdJDHEeye2sLDY5adkw" comment="Puerta" label="PUERTA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TdZDHEeye2sLDY5adkw" comment="Complemento" label="COMPLE" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TdpDHEeye2sLDY5adkw" comment="Localidad" label="LOCALI" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Td5DHEeye2sLDY5adkw" comment="Cod.Postal" label="CODPOS" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TeJDHEeye2sLDY5adkw" comment="Pais domicilio" label="PAIDOM" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TeZDHEeye2sLDY5adkw" comment="Residente en US" label="SUBSPH" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TepDHEeye2sLDY5adkw" comment="Nacionalidad" label="NACLDD" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Te5DHEeye2sLDY5adkw" comment="Pais doble nacionalidad" label="DOBNAC" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TfJDHEeye2sLDY5adkw" comment="Green card holder" label="GREENC" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TfZDHEeye2sLDY5adkw" comment="Compañía no operativa" label="NONOPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TfpDHEeye2sLDY5adkw" comment="US Citizen" label="USCITI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tf5DHEeye2sLDY5adkw" comment="Usuario de alta" label="USUALT" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TgJDHEeye2sLDY5adkw" comment="Fecha de alta" label="FECALT" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TgZDHEeye2sLDY5adkw" comment="Usuario que modifica" label="USUEDT" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TgpDHEeye2sLDY5adkw" comment="Fecha de modificación" label="FECEDT" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tg5DHEeye2sLDY5adkw" comment="Borrado" label="BORRAD" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0ThJDHEeye2sLDY5adkw" comment="Compañía operativa" label="COMPOPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0ThZDHEeye2sLDY5adkw" comment="NTBR" label="NTBR" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0ThpDHEeye2sLDY5adkw" comment="SCAP1" label="SCAP1" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Th5DHEeye2sLDY5adkw" comment="SCAP2" label="SCAP2" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TiJDHEeye2sLDY5adkw" comment="PEP" label="PEP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TiZDHEeye2sLDY5adkw" comment="SIAP" label="SIAP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TipDHEeye2sLDY5adkw" comment="Due dilligence" label="DUEDIL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Ti5DHEeye2sLDY5adkw" comment="Nacido en US" label="BORNUS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TjJDHEeye2sLDY5adkw" comment="Residente en US efectos fiscales" label="RESUS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TjZDHEeye2sLDY5adkw" comment="US person" label="USPERS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TjpDHEeye2sLDY5adkw" comment="No usado" label="RESTR" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tj5DHEeye2sLDY5adkw" comment="Más de 50 Milones" label="MAS50M" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TkJDHEeye2sLDY5adkw" comment="US indicia" label="USINDI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TkZDHEeye2sLDY5adkw" comment="Fecha US indicia" label="FECUSIND" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TkpDHEeye2sLDY5adkw" comment="VISA Holder" label="VISAHL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tk5DHEeye2sLDY5adkw" comment="VISA Type" label="VISATP" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TlJDHEeye2sLDY5adkw" comment="VISA Exp. Date" label="VISAEX" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TlZDHEeye2sLDY5adkw" comment="VISA Exception" label="EXCTXT" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TlpDHEeye2sLDY5adkw" comment="Tipo documento" label="TIPDOC" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tl5DHEeye2sLDY5adkw" comment="País expedición" label="PAISEX" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TmJDHEeye2sLDY5adkw" comment="Beneficial Owner OK" label="BOOK" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TmZDHEeye2sLDY5adkw" comment="Municipio" label="MUNICI" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TmpDHEeye2sLDY5adkw" comment="Codigo municipio" label="CODMUN" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0Tm5DHEeye2sLDY5adkw" comment="Clasificación AEI" label="AEICLA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TnJDHEeye2sLDY5adkw" comment="Ciudad Nacimiento" label="CITYNA" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xL0TnZDHEeye2sLDY5adkw" comment="País Nacimiento" label="PAISNA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

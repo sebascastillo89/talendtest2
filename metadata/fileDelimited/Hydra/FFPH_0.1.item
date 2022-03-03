@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_I8_NYYgTEeyTse6eBkw5oA" name="FFPH" dataPackage="_I8_NYogTEeyTse6eBkw5oA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/FFPH.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_I8_NYogTEeyTse6eBkw5oA" name="default" dataManager="_I8_NYYgTEeyTse6eBkw5oA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_I8_NY4gTEeyTse6eBkw5oA" id="_S2gFoIgSEeyTse6eBkw5oA" comment="FFPH – Fichero Fondos Precios Históricos  Revisar tipos numericos y mas" label="FFPH">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NZIgTEeyTse6eBkw5oA" comment="FFPH &#x9;&#x9;Alfanumérico " label="Ident__del_Fichero" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_I8_NZYgTEeyTse6eBkw5oA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NZogTEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD) " label="Fecha" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NZ4gTEeyTse6eBkw5oA" comment="Sinónimo Singular Bank (24XXXXX) &#x9;Alfanumérico " label="Cuenta" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NaIgTEeyTse6eBkw5oA" comment="Código Hydra &#x9;Alfanumérico " label="Divisa" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NaYgTEeyTse6eBkw5oA" comment="Código ISIN &#x9;Alfanumérico " label="Codigo_Isin" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NaogTEeyTse6eBkw5oA" comment="Nombre &#x9;&#x9;&#x9;Alfanumérico " label="Descripcion_Fondo" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_Na4gTEeyTse6eBkw5oA" comment="Numérico" label="Participaciones" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NbIgTEeyTse6eBkw5oA" comment="Numérico" label="Precio_Negociacion" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NbYgTEeyTse6eBkw5oA" comment="Numérico" label="Valoracion_Negociacion" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NbogTEeyTse6eBkw5oA" comment="Numérico" label="Fixing" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_Nb4gTEeyTse6eBkw5oA" comment="Numérico" label="Valoracion_Liquidacion" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NcIgTEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD)" label="Fecha_Precio_de_valoracion" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NcYgTEeyTse6eBkw5oA" comment="Mercado Singular Bank (4006,6018 ó 9998) &#x9;Alfanumérico " label="Mercado" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I8_NcogTEeyTse6eBkw5oA" comment="Alfanumérico" label="Sin_Uso" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

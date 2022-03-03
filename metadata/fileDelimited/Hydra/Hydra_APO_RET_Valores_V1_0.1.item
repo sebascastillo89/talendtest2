@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zYd40YgOEeyTse6eBkw5oA" name="Hydra_APO_RET_Valores_V1" dataPackage="_zYd40ogOEeyTse6eBkw5oA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/APO_RET_Valores.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zYd40ogOEeyTse6eBkw5oA" name="default" dataManager="_zYd40YgOEeyTse6eBkw5oA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zYd404gOEeyTse6eBkw5oA" id="_Y46tUIgNEeyTse6eBkw5oA" comment="Fichero de Entrada de Aportaciones / Retiradas de Valores   Revisar tipos de campos numericos y demas" label="Cadit_Hydra_Fichero_APO_RET_Valores_V1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd41IgOEeyTse6eBkw5oA" comment="APOR Aportación / RETI Retirada / CCTE Entrada por cambio de Titularidad / CCTS Salida por cambio de Titularidad  Alfanumérico" label="Tipo_de_Operacion" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd41YgOEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD)" label="Fecha_de_Contratacion" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd41ogOEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD)" label="Fecha_de_Liquidacion" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd414gOEeyTse6eBkw5oA" comment="Sinónimo Singular Bank (24XXXXX)  &#x9;Alfanumérico" label="Cliente" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd42IgOEeyTse6eBkw5oA" comment="Código ISIN &#x9;&#x9;&#x9;Alfanumérico " label="Valor" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd42YgOEeyTse6eBkw5oA" comment="Mercado Singular Bank (50XX) &#x9;Alfanumérico" label="Mercado" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd42ogOEeyTse6eBkw5oA" comment="Numérico" label="Titulos" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd424gOEeyTse6eBkw5oA" comment="Fecha (YYYYMMDD) " label="Fecha_de_Compra" length="-1" talendType="id_Date" pattern="&quot;YYYYMMDD&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd43IgOEeyTse6eBkw5oA" comment="Numérico, en unidades monetarias incluso para Renta Fija" label="Precio_de_Compra_Div_Neg" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd43YgOEeyTse6eBkw5oA" comment="Numérico" label="Importe_Compra_Div_Neg" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd43ogOEeyTse6eBkw5oA" comment="Numérico" label="Fixing_Div_Neg___Div_Liq" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd434gOEeyTse6eBkw5oA" comment="Código Hydra &#x9;&#x9;&#x9;Alfanumérico " label="Depositario" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zYd44IgOEeyTse6eBkw5oA" comment="Numérico" label="Comision_Compra_Div__Liq" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_zYd44YgOEeyTse6eBkw5oA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

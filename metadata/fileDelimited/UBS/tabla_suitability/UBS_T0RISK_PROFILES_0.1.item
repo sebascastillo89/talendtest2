@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_TGVWQJMnEeyR7ZhWbXG_XA" name="UBS_T0RISK_PROFILES" dataPackage="_TGVWQZMnEeyR7ZhWbXG_XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0RISK_PROFILES.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_TGVWQZMnEeyR7ZhWbXG_XA" name="default" dataManager="_TGVWQJMnEeyR7ZhWbXG_XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TGVWQpMnEeyR7ZhWbXG_XA" id="_yoWS4JMkEeyR7ZhWbXG_XA" comment="Tabla de perfiles de cuentas" label="UBS_T0RISK_PROFILES">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWQ5MnEeyR7ZhWbXG_XA" comment="Identificador del risk profile" label="IDRISKPROF" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWRJMnEeyR7ZhWbXG_XA" comment="Autor" label="AUTOR" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWRZMnEeyR7ZhWbXG_XA" comment="Revisor" label="REVISOR" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWRpMnEeyR7ZhWbXG_XA" comment="Estado del risk profile" label="ESTADO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWR5MnEeyR7ZhWbXG_XA" comment="Fecha del estado" label="FECHAESTADO" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWSJMnEeyR7ZhWbXG_XA" comment="Cuenta del risk profile" label="CUENTA" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWSZMnEeyR7ZhWbXG_XA" comment="Resultado del risk profile" label="RESULTADO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWSpMnEeyR7ZhWbXG_XA" comment="Versión del risk profile" label="VERSION" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TGVWS5MnEeyR7ZhWbXG_XA" comment="Fecha de la firma" label="FECHAFIRMA" length="-1" talendType="id_Date"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

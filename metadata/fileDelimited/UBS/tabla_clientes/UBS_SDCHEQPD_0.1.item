@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Mr3bYZoFEeyvNMgc17TW4g" name="UBS_SDCHEQPD" dataPackage="_Mr3bYpoFEeyvNMgc17TW4g" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/SDCHEQPD.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Mr3bYpoFEeyvNMgc17TW4g" name="default" dataManager="_Mr3bYZoFEeyvNMgc17TW4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Mr3bY5oFEeyvNMgc17TW4g" id="_sxdUQJoEEeyvNMgc17TW4g" comment="Tabla de clientes con chequera" label="UBS_SDCHEQPD">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bZJoFEeyvNMgc17TW4g" comment="Record Id" label="SCRECI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bZZoFEeyvNMgc17TW4g" comment="Day of last update" label="SCDLUP" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bZpoFEeyvNMgc17TW4g" comment="Month of last update" label="SCMLUP" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bZ5oFEeyvNMgc17TW4g" comment="Year of last update" label="SCYLUP" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3baJoFEeyvNMgc17TW4g" comment="Time of last update" label="SCTLUP" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3baZoFEeyvNMgc17TW4g" comment="Type of last change" label="SCCHTP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bapoFEeyvNMgc17TW4g" comment="Last change date" label="SCLCD" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3ba5oFEeyvNMgc17TW4g" comment="Transact.no of last update" label="SCTNLU" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bbJoFEeyvNMgc17TW4g" comment="Customer number" label="SCCUST" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bbZoFEeyvNMgc17TW4g" comment="Cust. Shortname" label="SCCSSN" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_YRYU4JokEeyvNMgc17TW4g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bbpoFEeyvNMgc17TW4g" comment="Cust. report name" label="SCCRNM" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bb5oFEeyvNMgc17TW4g" comment="Cust. Report Town" label="SCCRTN" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bcJoFEeyvNMgc17TW4g" comment="Cheque Card1" label="SCCAC1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bcZoFEeyvNMgc17TW4g" comment="Issued1" label="SCDIS1" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bcpoFEeyvNMgc17TW4g" comment="Expiry1" label="SCDRE1" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bc5oFEeyvNMgc17TW4g" comment="Cheque Card2" label="SCCAC2" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bdJoFEeyvNMgc17TW4g" comment="Issued2" label="SCDIS2" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bdZoFEeyvNMgc17TW4g" comment="Expiry2" label="SCDRE2" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_IhH2QJomEeyvNMgc17TW4g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bdpoFEeyvNMgc17TW4g" comment="Cheque Card3" label="SCCAC3" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bd5oFEeyvNMgc17TW4g" comment="Issued3" label="SCDIS3" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3beJoFEeyvNMgc17TW4g" comment="Expiry3" label="SCDRE3" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3beZoFEeyvNMgc17TW4g" comment="Cheque Card4" label="SCCAC4" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bepoFEeyvNMgc17TW4g" comment="Issued4" label="SCDIS4" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3be5oFEeyvNMgc17TW4g" comment="Expiry4" label="SCDRE4" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bfJoFEeyvNMgc17TW4g" comment="Cheque Card5" label="SCCAC5" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bfZoFEeyvNMgc17TW4g" comment="Issued5" label="SCDIS5" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bfpoFEeyvNMgc17TW4g" comment="Expiry5" label="SCDRE5" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bf5oFEeyvNMgc17TW4g" comment="Card Cheque Text" label="SCCTX1" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bgJoFEeyvNMgc17TW4g" comment="Cheque Num. F1" label="SCCQF1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bgZoFEeyvNMgc17TW4g" comment="Cheque Num. T1" label="SCCQT1" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bgpoFEeyvNMgc17TW4g" comment="Quantity" label="SCCQQ1" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bg5oFEeyvNMgc17TW4g" comment="Issued" label="SCCQI1" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bhJoFEeyvNMgc17TW4g" comment="Cheque Num. F2" label="SCCQF2" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bhZoFEeyvNMgc17TW4g" comment="Cheque Num. T2" label="SCCQT2" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bhpoFEeyvNMgc17TW4g" comment="Quantity" label="SCCQQ2" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bh5oFEeyvNMgc17TW4g" comment="Issued" label="SCCQI2" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3biJoFEeyvNMgc17TW4g" comment="Cheque Num. F3" label="SCCQF3" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3biZoFEeyvNMgc17TW4g" comment="Cheque Num. T3" label="SCCQT3" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bipoFEeyvNMgc17TW4g" comment="Quantity" label="SCCQQ3" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bi5oFEeyvNMgc17TW4g" comment="Issued" label="SCCQI3" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bjJoFEeyvNMgc17TW4g" comment="Cheque Num. F4" label="SCCQF4" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bjZoFEeyvNMgc17TW4g" comment="Cheque Num. T4" label="SCCQT4" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bjpoFEeyvNMgc17TW4g" comment="Quantity" label="SCCQQ4" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bj5oFEeyvNMgc17TW4g" comment="Issued" label="SCCQI4" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bkJoFEeyvNMgc17TW4g" comment="Cheque Num. F5" label="SCCQF5" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bkZoFEeyvNMgc17TW4g" comment="Cheque Num. T5" label="SCCQT5" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bkpoFEeyvNMgc17TW4g" comment="Quantity" label="SCCQQ5" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bk5oFEeyvNMgc17TW4g" comment="Issued" label="SCCQI5" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3blJoFEeyvNMgc17TW4g" comment="Cheque Num. Text" label="SCCTX2" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3blZoFEeyvNMgc17TW4g" comment="Credit Card1" label="SCCAN1" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3blpoFEeyvNMgc17TW4g" comment="Credit Text1" label="SCCAL1" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bl5oFEeyvNMgc17TW4g" comment="Issued1" label="SCCAI1" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bmJoFEeyvNMgc17TW4g" comment="Expiry1" label="SCCAE1" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bmZoFEeyvNMgc17TW4g" comment="Credit Card2" label="SCCAN2" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bmpoFEeyvNMgc17TW4g" comment="Credit Text2" label="SCCAL2" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bm5oFEeyvNMgc17TW4g" comment="Issued2" label="SCCAI2" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bnJoFEeyvNMgc17TW4g" comment="Expiry2" label="SCCAE2" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bnZoFEeyvNMgc17TW4g" comment="Credit Card3" label="SCCAN3" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bnpoFEeyvNMgc17TW4g" comment="Credit Text3" label="SCCAL3" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bn5oFEeyvNMgc17TW4g" comment="Issued3" label="SCCAI3" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3boJoFEeyvNMgc17TW4g" comment="Expiry3" label="SCCAE3" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3boZoFEeyvNMgc17TW4g" comment="Credit Card4" label="SCCAN4" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bopoFEeyvNMgc17TW4g" comment="Credit Text4" label="SCCAL4" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bo5oFEeyvNMgc17TW4g" comment="Issued4" label="SCCAI4" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bpJoFEeyvNMgc17TW4g" comment="Expiry4" label="SCCAE4" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bpZoFEeyvNMgc17TW4g" comment="Credit Card5" label="SCCAN5" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bppoFEeyvNMgc17TW4g" comment="Credit Text5" label="SCCAL5" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bp5oFEeyvNMgc17TW4g" comment="Issued5" label="SCCAI5" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_QbEjIJooEeyvNMgc17TW4g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mr3bqJoFEeyvNMgc17TW4g" comment="Expiry5" label="SCCAE5" length="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

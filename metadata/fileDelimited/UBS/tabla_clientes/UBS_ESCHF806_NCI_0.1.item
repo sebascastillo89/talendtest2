@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lNkOQZGvEeye2sLDY5adkw" name="UBS_ESCHF806_NCI" dataPackage="_lNkOQpGvEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF806 - NCI.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lNkOQpGvEeye2sLDY5adkw" name="default" dataManager="_lNkOQZGvEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lNkOQ5GvEeye2sLDY5adkw" id="_THYE8JGvEeye2sLDY5adkw" comment="Tabla Local ESCHF806. NCI" label="UBS_ESCHF806_NCI">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkORJGvEeye2sLDY5adkw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkORZGvEeye2sLDY5adkw" comment="NCI" label="NCI" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkORpGvEeye2sLDY5adkw" comment="País Nacionalidad" label="PAIS" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkOR5GvEeye2sLDY5adkw" comment="Estado" label="ESTADO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkOSJGvEeye2sLDY5adkw" comment="Fecha Hora" label="FECHAHORA" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkOSZGvEeye2sLDY5adkw" comment="Usuario" label="USUARIO" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lNkOSpGvEeye2sLDY5adkw" comment="Tipo Identificación" label="TIPOID" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lNkOS5GvEeye2sLDY5adkw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

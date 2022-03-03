@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_TZ6DcY5OEey1LO245z0OYw" name="INV_2.3" dataPackage="_TZ6Dco5OEey1LO245z0OYw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_2.3.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,14,34,46,56,66,84,102,120,138,141,149,167,185&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_TZ6Dco5OEey1LO245z0OYw" name="default" dataManager="_TZ6DcY5OEey1LO245z0OYw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TZ6Dc45OEey1LO245z0OYw" id="_YxUpgI5NEey1LO245z0OYw" label="INV_2.3">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZ6DdI5OEey1LO245z0OYw" name="Empresa" comment="Siempre 5000" label="Empresa" length="4" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_8sKqwI5OEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZ6DdY5OEey1LO245z0OYw" name="Institucion" label="Institucion" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_o2oOQI5PEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TZ6Ddo5OEey1LO245z0OYw" name="Cta_Valores_Clientes" comment="Será la misma codificación que mantenemos en el maestro de cuentas como referencia extema de la cuenta" label="Cta_Valores_Clientes" length="20" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_5exFMI5PEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nAgksI5QEey1LO245z0OYw" name="Cod_ISIN" label="Cod_ISIN" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_BT-RcI5REey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nCBnoI5QEey1LO245z0OYw" name="Num_Titulos_Vivos" comment="Solo me comunicarán los títulos de posición" label="Num_Titulos_Vivos" length="10" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_E3YGwI5REey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nDauwI5QEey1LO245z0OYw" name="Mercado" comment="Según la codificación de Inversis (TABLA MAESTRA)" label="Mercado" length="10" talendType="id_Character" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nEynwI5QEey1LO245z0OYw" name="Precio_Medio_Neto" comment="Precio Medio Neto" label="Precio_Medio_Neto" length="18" precision="6" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_qyucoI5REey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nGYjMI5QEey1LO245z0OYw" name="Importe_Efectivo_Neto_adquisicion" comment="Importe total de la operación en la divisa de la transacción" label="Importe_Efectivo_Neto_adquisicion" length="18" precision="2" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_19-0II5REey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nIJdwI5QEey1LO245z0OYw" name="Importe_Efectivo_Neto_adquisicion_EUR" comment="Importe total de la operación en EUR" label="Importe_Efectivo_Neto_adquisicion_EUR" length="18" precision="2" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_9tMikI5REey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nJ-CsI5QEey1LO245z0OYw" name="Cambio_divisa_operacion_cliente" comment="Cambio de divisa entre la divisa de la transacción y la divisa del cliente. Si no se usa a blancos" label="Cambio_divisa_operacion_cliente" length="18" precision="9" talendType="id_Integer">
+        <initialValue xmi:id="_EnQKoI5SEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JL7PsI5SEey1LO245z0OYw" name="Divisa_liquidacion_cliente" comment="Divisa de liquidacion del cliente" label="Divisa_liquidacion_cliente" length="3" talendType="id_Character">
+        <initialValue xmi:id="_PD690I5SEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JNc5sI5SEey1LO245z0OYw" name="Fecha_adquisicion" comment="Formato YYYYMMDD" label="Fecha_adquisicion" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_egbvII5SEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JPEDQI5SEey1LO245z0OYw" name="Valoracion_2005_en_EUR" comment="Solo para SICAVs" label="Valoracion_2005_en_EUR" length="18" precision="2" talendType="id_Integer">
+        <initialValue xmi:id="_jN3HkI5SEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JQlGMI5SEey1LO245z0OYw" name="Valoracion_2006_en_EUR" comment="Solo para SICAVs" label="Valoracion_2006_en_EUR" length="18" precision="2" talendType="id_Integer">
+        <initialValue xmi:id="_poEx8I5SEey1LO245z0OYw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q_FoMI5SEey1LO245z0OYw" name="Divisa_Liquidacion_camara_mercado" comment="Divisa en que se expresan los importes del formato (aquellos que no son en eur ni en divisa de liquidación)" label="Divisa_Liquidacion_camara_mercado" length="3" talendType="id_Character">
+        <initialValue xmi:id="_ua3ykI5SEey1LO245z0OYw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mp-NcJMFEeyTMpo76WAzcQ" name="UBS_T0LOGALTY_DIRECCIONCORREO" dataPackage="_mp-NcZMFEeyTMpo76WAzcQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0LOGALTY_DIRECCIONCORREO.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mp-NcZMFEeyTMpo76WAzcQ" name="default" dataManager="_mp-NcJMFEeyTMpo76WAzcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mp-NcpMFEeyTMpo76WAzcQ" id="_NJOXEJMFEeyTMpo76WAzcQ" comment="Tabla de correos uso logalty" label="UBS_T0LOGALTY_DIRECCIONCORREO">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mp-Nc5MFEeyTMpo76WAzcQ" comment="Identificador del registro" label="ID" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mp-NdJMFEeyTMpo76WAzcQ" comment="Cliente" label="CLIENTE" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mp-NdZMFEeyTMpo76WAzcQ" comment="Dirección de correo electrónico" label="DIRECCION" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mp-NdpMFEeyTMpo76WAzcQ" comment="Autor" label="AUTOR" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mp-Nd5MFEeyTMpo76WAzcQ" comment="Fecha de inserción" label="CUANDO" length="-1" talendType="id_Date"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

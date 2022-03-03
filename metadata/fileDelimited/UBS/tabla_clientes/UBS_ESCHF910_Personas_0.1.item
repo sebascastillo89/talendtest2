@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cXLHQZGtEeye2sLDY5adkw" name="UBS_ESCHF910_Personas" id="_cXLHQJGtEeye2sLDY5adkw" dataPackage="_cXLHQpGtEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF910 - Personas.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cXLHQpGtEeye2sLDY5adkw" name="default" dataManager="_cXLHQZGtEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cXLHQ5GtEeye2sLDY5adkw" id="_6jGIwJGsEeye2sLDY5adkw" comment="Tabla Local ESCHF910. Datos fiscales personas" label="UBS_ESCHF910_Personas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHRJGtEeye2sLDY5adkw" comment="Id.Fiscal" label="F91001" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHRZGtEeye2sLDY5adkw" comment="Apellido1" label="F91002" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHRpGtEeye2sLDY5adkw" comment="Apellido2" label="F91003" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHR5GtEeye2sLDY5adkw" comment="Nombre" label="F91004" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHSJGtEeye2sLDY5adkw" comment="Tipo vía" label="F91005" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHSZGtEeye2sLDY5adkw" comment="Nombre vía" label="F91006" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHSpGtEeye2sLDY5adkw" comment="Tipo numeración" label="F91007" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHS5GtEeye2sLDY5adkw" comment="Número casa" label="F91008" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHTJGtEeye2sLDY5adkw" comment="Calificador del número" label="F91009" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHTZGtEeye2sLDY5adkw" comment="Bloque" label="F91010" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHTpGtEeye2sLDY5adkw" comment="Portal" label="F91011" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHT5GtEeye2sLDY5adkw" comment="Escalera" label="F91012" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHUJGtEeye2sLDY5adkw" comment="Planta" label="F91013" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHUZGtEeye2sLDY5adkw" comment="Puerta" label="F91014" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHUpGtEeye2sLDY5adkw" comment="Complemento" label="F91015" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHU5GtEeye2sLDY5adkw" comment="Localidad" label="F91016" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHVJGtEeye2sLDY5adkw" comment="Cod.Postal" label="F91017" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHVZGtEeye2sLDY5adkw" comment="Municipio" label="F91018" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHVpGtEeye2sLDY5adkw" comment="Cod.Municipio" label="F91019" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHV5GtEeye2sLDY5adkw" comment="Estado civil" label="F91020" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHWJGtEeye2sLDY5adkw" comment="Sexo" label="F91021" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cXLHWZGtEeye2sLDY5adkw" comment="Última modificación" label="F91022" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_cXLHWpGtEeye2sLDY5adkw" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

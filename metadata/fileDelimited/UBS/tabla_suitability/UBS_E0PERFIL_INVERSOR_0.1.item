@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_qWGI0JMkEeyR7ZhWbXG_XA" name="UBS_E0PERFIL_INVERSOR" dataPackage="_qWGI0ZMkEeyR7ZhWbXG_XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/E0PERFIL_INVERSOR.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qWGI0ZMkEeyR7ZhWbXG_XA" name="default" dataManager="_qWGI0JMkEeyR7ZhWbXG_XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qWGI0pMkEeyR7ZhWbXG_XA" id="_59-5IJMjEeyR7ZhWbXG_XA" label="UBS_E0PERFIL_INVERSOR">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qWGI05MkEeyR7ZhWbXG_XA" comment="Identificador de perfil (CP_PERFIL1, CP_PERFIL2... CP_PERFIL7" label="IDPERFIL_INVERSOR" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qWGI1JMkEeyR7ZhWbXG_XA" comment="Texto de perfil" label="VALOR" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_VVZe8I5-Eey0ftKrpS31tA" name="INV_5.2" dataPackage="_VVZe8Y5-Eey0ftKrpS31tA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_5.2.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,15,23,38,66,86,98,113,122,132,140,144,148,150,160,162,180,201,219,235,251,506,515,524,533,535,543&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VVZe8Y5-Eey0ftKrpS31tA" name="default" dataManager="_VVZe8I5-Eey0ftKrpS31tA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VVZe8o5-Eey0ftKrpS31tA" id="_5h11QI55Eey0ftKrpS31tA" label="INV_5.2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe845-Eey0ftKrpS31tA" name="Empresa" comment="Siempre 5000" label="Empresa" length="4" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZe9I5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe9Y5-Eey0ftKrpS31tA" name="Institucion" label="Institucion" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZe9o5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe945-Eey0ftKrpS31tA" name="Fecha_de_Transmision" comment="Formato YYYYMMDD" label="Fecha_de_Transmision" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZe-I5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe-Y5-Eey0ftKrpS31tA" name="Tipo_Fichero" comment="Siempre &quot;TRASPASOSCADE&quot;" label="Tipo_Fichero" length="15" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZe-o5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe-45-Eey0ftKrpS31tA" name="Numero_Cuenta_Externa" comment="Obligado uno de los dos" label="Numero_Cuenta_Externa" length="28" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZe_I5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe_Y5-Eey0ftKrpS31tA" name="Numero_Cuenta_Inversis" comment="Obligado uno de los dos" label="Numero_Cuenta_Inversis" length="20" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZe_o5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZe_45-Eey0ftKrpS31tA" name="Codigo_ISIN" comment="Obligatorio código interno ó ISIN + Mercado o Ticket + Mercado" label="Codigo_ISIN" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfAI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfAY5-Eey0ftKrpS31tA" name="Ticker" comment="Obligatorio código interno ó ISIN + Mercado o Ticket + Mercado" label="Ticker" length="15" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfAo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfA45-Eey0ftKrpS31tA" name="Codigo_Valor" comment="Obligatorio código interno ó ISIN + Mercado o Ticket + Mercado" label="Codigo_Valor" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_VVZfBI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfBY5-Eey0ftKrpS31tA" name="Codigo_Mercado" comment="Obligatorio código interno ó ISIN + Mercado o Ticket + Mercado" label="Codigo_Mercado" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfBo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfB45-Eey0ftKrpS31tA" name="Fecha_Valor_Traspaso" label="Fecha_Valor_Traspaso" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfCI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfCY5-Eey0ftKrpS31tA" name="Codigo_Entidad_Cuenta_Origen" label="Codigo_Entidad_Cuenta_Origen" length="4" talendType="id_Character">
+        <initialValue xmi:id="_VVZfCo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfC45-Eey0ftKrpS31tA" name="Codigo_Sucursal_Cuenta_Origen" label="Codigo_Sucursal_Cuenta_Origen" length="4" talendType="id_Character">
+        <initialValue xmi:id="_VVZfDI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfDY5-Eey0ftKrpS31tA" name="Digito_Control_Cuenta_Origen" label="Digito_Control_Cuenta_Origen" length="2" talendType="id_Character">
+        <initialValue xmi:id="_VVZfDo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfD45-Eey0ftKrpS31tA" name="Numero_Cuenta_Origen" label="Numero_Cuenta_Origen" length="10" talendType="id_Character">
+        <initialValue xmi:id="_VVZfEI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfEY5-Eey0ftKrpS31tA" name="Tipo_Operacion_Original_Registro_Terceros" label="Tipo_Operacion_Original_Registro_Terceros" length="2" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfEo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfE45-Eey0ftKrpS31tA" name="Importe_Nominal" label="Importe_Nominal" length="18" precision="2" talendType="id_Float" nullable="false">
+        <initialValue xmi:id="_VVZfFI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfFY5-Eey0ftKrpS31tA" name="Precio_con_Cupon" comment="Distinto de 0. (&lt;>0). Es el precio bruto con cupón en divisa de la operación y fecha valor fiscal. Expresado en divisa de cotización del instrumento. 12 enteros y 9 decimales." label="Precio_con_Cupon" length="21" precision="9" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_VVZfFo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfF45-Eey0ftKrpS31tA" name="Importe_Efectivo_con_Cupon" comment="Es el importe efectivo bruto antiguo de adquisición, con cupón, en divisa de la operación y fecha valor fiscal. En Inversis no incorporamos este dato como importe del FIFO, sino que lo utilizamos como comprobación. Nunca debe ir a blancos." label="Importe_Efectivo_con_Cupon" length="18" precision="2" talendType="id_Float" nullable="false">
+        <initialValue xmi:id="_VVZfGI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfGY5-Eey0ftKrpS31tA" name="Referencia_Orden_Cliente" label="Referencia_Orden_Cliente" length="16" talendType="id_Character">
+        <initialValue xmi:id="_VVZfGo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfG45-Eey0ftKrpS31tA" name="Otra_Referencia_Cliente" label="Otra_Referencia_Cliente" length="16" talendType="id_Character">
+        <initialValue xmi:id="_VVZfHI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfHY5-Eey0ftKrpS31tA" name="Observaciones" label="Observaciones" length="255" talendType="id_Character">
+        <initialValue xmi:id="_VVZfHo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfH45-Eey0ftKrpS31tA" name="Entidad_Depositaria_Destino" comment="A cumplimentar por Inversis" label="Entidad_Depositaria_Destino" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_VVZfII5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfIY5-Eey0ftKrpS31tA" name="Miembro_Origen" comment="A cumplimentar por Inversis" label="Miembro_Origen" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_VVZfIo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfI45-Eey0ftKrpS31tA" name="Miembro_Destino" comment="A cumplimentar por Inversis" label="Miembro_Destino" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_VVZfJI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfJY5-Eey0ftKrpS31tA" name="Forma_de_Calculo" comment="Según codificación de Inversis" label="Forma_de_Calculo" length="2" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_VVZfJo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfJ45-Eey0ftKrpS31tA" name="Filler" comment="Rellenar a espacios" label="Filler" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfKI5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VVZfKY5-Eey0ftKrpS31tA" name="Filler2" comment="Rellenar a espacios" label="Filler2" length="18" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_VVZfKo5-Eey0ftKrpS31tA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

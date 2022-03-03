@@ -1,0 +1,103 @@
+<admsec fileID="HDAYSYNCAdmsecxml_oms_es.20220112093016000" reqTotal="2">                                                                                                                                                                                    
+<createUser reqID="CU2445002696M7777777Q">
+<user userID="M7777777Q"       userLbl="M7777777Q"       userPwd="x5013d8f420e7ba7cc6c7c1cd2d6ee7aa27076844fd8bd727c976d8cd452b91x"       userCashTrPwd="8d9c307cb7f3c4a"       userPrf="CUS" >
+<rightLst numInLst="15">
+<right act="MARKET_DATA_LEVEL_0" data="00054"/>
+<right act="MARKET_DATA_LEVEL_0" data="LATBX"/>
+<right act="MARKET_DATA_LEVEL_0" data="WRTES"/>
+<right act="MARKET_DATA_LEVEL_0" data="00067"/>
+<right act="MARKET_DATA_LEVEL_0" data="00065"/>
+<right act="MARKET_DATA_LEVEL_0" data="00130"/>
+<right act="MARKET_DATA_LEVEL_0" data="00066"/>
+<right act="MARKET_DATA_LEVEL_0" data="00025"/>
+<right act="MARKET_DATA_LEVEL_0" data="00044"/>
+<right act="MARKET_DATA_LEVEL_0" data="00041"/>
+<right act="MARKET_DATA_LEVEL_0" data="00006"/>
+<right act="MARKET_DATA_LEVEL_0" data="00038"/>
+<right act="MARKET_DATA_LEVEL_0" data="00051"/>
+<right act="MARKET_DATA_LEVEL_0" data="00036"/>
+<right act="MARKET_DATA_LEVEL_0" data="00069"/>
+<right act="ADMIN" data="CASHADJUST"/></rightLst>
+</user>
+</createUser>
+<createAccount reqID="CA2445002696M7777777Q">
+<account acctCcyID="EUR"         acctLbl="45002696"          acctStat="A"          acctTyp="ORD" >
+<bkAcctNum bkCd="17553"           offCd="00001"           acct="2445002696001" />
+<rightLst numInLst="0">
+</rightLst>
+</account>
+</createAccount>
+<createUserAccountLink reqID="CL2445002696M7777777QOWNER" userID="M7777777Q">
+<bkAcctNum bkCd="17553" offCd="00001" acct="2445002696001" />
+<userAcctLinkType>OWNER</userAcctLinkType>
+</createUserAccountLink>
+<createUserAccountLink reqID="CL2445002696M7777777QCTR" userID="M7777777Q">
+<bkAcctNum bkCd="17553" offCd="00001" acct="2445002696001" />
+<userAcctLinkType>CTR</userAcctLinkType>
+</createUserAccountLink>
+<createUser reqID="CU244500322550800126A">
+<user userID="50800126A"       userLbl="50800126A"       userPwd="x4b63eb9f355c35ef6fc53bdf60a77669b2920f5e8d4730170d892cb06e703ax"       userCashTrPwd="8d9c307cb7f3c4a"       userPrf="CUS" >
+<rightLst numInLst="15">
+<right act="MARKET_DATA_LEVEL_0" data="00054"/>
+<right act="MARKET_DATA_LEVEL_0" data="LATBX"/>
+<right act="MARKET_DATA_LEVEL_0" data="WRTES"/>
+<right act="MARKET_DATA_LEVEL_0" data="00067"/>
+<right act="MARKET_DATA_LEVEL_0" data="00065"/>
+<right act="MARKET_DATA_LEVEL_0" data="00130"/>
+<right act="MARKET_DATA_LEVEL_0" data="00066"/>
+<right act="MARKET_DATA_LEVEL_0" data="00025"/>
+<right act="MARKET_DATA_LEVEL_0" data="00044"/>
+<right act="MARKET_DATA_LEVEL_0" data="00041"/>
+<right act="MARKET_DATA_LEVEL_0" data="00006"/>
+<right act="MARKET_DATA_LEVEL_0" data="00038"/>
+<right act="MARKET_DATA_LEVEL_0" data="00051"/>
+<right act="MARKET_DATA_LEVEL_0" data="00036"/>
+<right act="MARKET_DATA_LEVEL_0" data="00069"/>
+<right act="ADMIN" data="CASHADJUST"/></rightLst>
+</user>
+</createUser>
+<createUser reqID="CU244500322550795763X">
+<user userID="50795763X"       userLbl="50795763X"       userPwd="x522dd050e7c317b02ffe13e7ec1346a320f52dd7ad5a9c67496f73125ab515x"       userCashTrPwd="8d9c307cb7f3c4a"       userPrf="CUS" >
+<rightLst numInLst="15">
+<right act="MARKET_DATA_LEVEL_0" data="00054"/>
+<right act="MARKET_DATA_LEVEL_0" data="LATBX"/>
+<right act="MARKET_DATA_LEVEL_0" data="WRTES"/>
+<right act="MARKET_DATA_LEVEL_0" data="00067"/>
+<right act="MARKET_DATA_LEVEL_0" data="00065"/>
+<right act="MARKET_DATA_LEVEL_0" data="00130"/>
+<right act="MARKET_DATA_LEVEL_0" data="00066"/>
+<right act="MARKET_DATA_LEVEL_0" data="00025"/>
+<right act="MARKET_DATA_LEVEL_0" data="00044"/>
+<right act="MARKET_DATA_LEVEL_0" data="00041"/>
+<right act="MARKET_DATA_LEVEL_0" data="00006"/>
+<right act="MARKET_DATA_LEVEL_0" data="00038"/>
+<right act="MARKET_DATA_LEVEL_0" data="00051"/>
+<right act="MARKET_DATA_LEVEL_0" data="00036"/>
+<right act="MARKET_DATA_LEVEL_0" data="00069"/>
+<right act="ADMIN" data="CASHADJUST"/></rightLst>
+</user>
+</createUser>
+<createAccount reqID="CA244500322550800126A">
+<account acctCcyID="EUR"         acctLbl="45003225"          acctStat="A"          acctTyp="ORD" >
+<bkAcctNum bkCd="17553"           offCd="00001"           acct="2445003225001" />
+<rightLst numInLst="0">
+</rightLst>
+</account>
+</createAccount>
+<createUserAccountLink reqID="CL244500322550800126AOWNER" userID="50800126A">
+<bkAcctNum bkCd="17553" offCd="00001" acct="2445003225001" />
+<userAcctLinkType>OWNER</userAcctLinkType>
+</createUserAccountLink>
+<createUserAccountLink reqID="CL244500322550800126ACTR" userID="50800126A">
+<bkAcctNum bkCd="17553" offCd="00001" acct="2445003225001" />
+<userAcctLinkType>CTR</userAcctLinkType>
+</createUserAccountLink>
+<createUserAccountLink reqID="CL244500322550795763XOWNER" userID="50795763X">
+<bkAcctNum bkCd="17553" offCd="00001" acct="2445003225001" />
+<userAcctLinkType>OWNER</userAcctLinkType>
+</createUserAccountLink>
+<createUserAccountLink reqID="CL244500322550795763XCTR" userID="50795763X">
+<bkAcctNum bkCd="17553" offCd="00001" acct="2445003225001" />
+<userAcctLinkType>CTR</userAcctLinkType>
+</createUserAccountLink>
+</admsec>

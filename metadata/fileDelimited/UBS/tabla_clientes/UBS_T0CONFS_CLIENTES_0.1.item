@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_7El7sZL-EeyTMpo76WAzcQ" name="UBS_T0CONFS_CLIENTES" dataPackage="_7El7spL-EeyTMpo76WAzcQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0CONFS_CLIENTES.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_7El7spL-EeyTMpo76WAzcQ" name="default" dataManager="_7El7sZL-EeyTMpo76WAzcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7El7s5L-EeyTMpo76WAzcQ" id="_NNf3QJL-EeyTMpo76WAzcQ" comment="Tabla de configuración de clientes con envío de correspondencia por email" label="UBS_T0CONFS_CLIENTES">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7El7tJL-EeyTMpo76WAzcQ" comment="Identificador de la revisión" label="IDREVISION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7El7tZL-EeyTMpo76WAzcQ" comment="Cliente asociado" label="CLIENTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

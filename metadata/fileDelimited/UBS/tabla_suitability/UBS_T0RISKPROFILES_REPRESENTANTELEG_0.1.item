@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rJks0ZMnEeyR7ZhWbXG_XA" name="UBS_T0RISKPROFILES_REPRESENTANTELEG" dataPackage="_rJks0pMnEeyR7ZhWbXG_XA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0RISKPROFILES_REPRESENTANTELEG.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rJks0pMnEeyR7ZhWbXG_XA" name="default" dataManager="_rJks0ZMnEeyR7ZhWbXG_XA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rJks05MnEeyR7ZhWbXG_XA" id="_bS69MJMnEeyR7ZhWbXG_XA" comment="Tabla de firmante del risk profile" label="UBS_T0RISKPROFILES_REPRESENTANTELEG">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rJks1JMnEeyR7ZhWbXG_XA" comment="Identificador del perfil de riesgo" label="IDRISKPROF" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rJks1ZMnEeyR7ZhWbXG_XA" comment="NIF" label="NIF" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rJks1pMnEeyR7ZhWbXG_XA" comment="Nombre del firmante" label="NOMBRE" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rJks15MnEeyR7ZhWbXG_XA" comment="Motivo de la renovación (dependiendo del motivo, solicita que firmen todos los titulares)" label="CHEQUEO_FIRMAS" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

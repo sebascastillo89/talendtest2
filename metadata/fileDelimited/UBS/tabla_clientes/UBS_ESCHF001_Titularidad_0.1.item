@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zmTVwZGsEeye2sLDY5adkw" name="UBS_ESCHF001_Titularidad" id="_zmTVwJGsEeye2sLDY5adkw" dataPackage="_zmTVwpGsEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF001 - Titularidad.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zmTVwpGsEeye2sLDY5adkw" name="default" dataManager="_zmTVwZGsEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zmTVw5GsEeye2sLDY5adkw" id="_CL8l8JGsEeye2sLDY5adkw" comment="Tabla ESCHF001 desarrollo local RPG. Tabla de relaciones entre clientes" label="UBS_ESCHF001_Titularidad">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVxJGsEeye2sLDY5adkw" comment="Cuenta" label="CHCUST" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVxZGsEeye2sLDY5adkw" comment="Moneda de la cuenta" label="CHCCY" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVxpGsEeye2sLDY5adkw" comment="Código de cuenta" label="CHACOD" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVx5GsEeye2sLDY5adkw" comment="Secuencia" label="CHACSQ" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVyJGsEeye2sLDY5adkw" comment="Branch code" label="CHBRCA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVyZGsEeye2sLDY5adkw" comment="Nombre fiscal" label="CHNAME" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVypGsEeye2sLDY5adkw" comment="Cliente relacionado" label="CHHOLD" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVy5GsEeye2sLDY5adkw" comment="Nif del relacionado" label="CHINIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVzJGsEeye2sLDY5adkw" comment="Tipo de cliente" label="CHTYPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVzZGsEeye2sLDY5adkw" comment="Nombre corto" label="CHCSSN" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVzpGsEeye2sLDY5adkw" comment="Fecha de apertura de cuenta" label="CHOPEN" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTVz5GsEeye2sLDY5adkw" comment="Fecha de cierre de cuenta" label="CHCLOS" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV0JGsEeye2sLDY5adkw" comment="Indicador de cierre" label="CHCLOI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV0ZGsEeye2sLDY5adkw" comment="Código de cuenta" label="CHICCN" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV0pGsEeye2sLDY5adkw" comment="Dirección fiscal" label="CHIADR" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV05GsEeye2sLDY5adkw" comment="Ciudad fiscal" label="CHITWN" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV1JGsEeye2sLDY5adkw" comment="Código postal fiscal" label="CHIZIP" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV1ZGsEeye2sLDY5adkw" comment="Tipo interno" label="CHINTY" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV1pGsEeye2sLDY5adkw" comment="Tipo civil" label="CHCIV1" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV15GsEeye2sLDY5adkw" comment="Tipo titularidad COTITULAR, TITULAR, AUTORIZADO/APODERADO" label="CHTITU" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV2JGsEeye2sLDY5adkw" comment="Marca nudo propietario &lt;vacio>, USUFRUCTUARIO, NUDO PROPIETARIO" label="CHNUDO" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV2ZGsEeye2sLDY5adkw" comment="Marca físico/jurídico FISICO,JURIDICO" label="CHFIJU" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV2pGsEeye2sLDY5adkw" comment="Marca Menor &lt;vacio>,  MENOR" label="CHMENO" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV25GsEeye2sLDY5adkw" comment="Pais" label="CHPAIS" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV3JGsEeye2sLDY5adkw" comment="Marca residente RESIDENTE/NO RESIDENTE" label="CHRESI" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV3ZGsEeye2sLDY5adkw" comment="Código CA" label="CHACOC" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmTV3pGsEeye2sLDY5adkw" comment="Nombre de CA" label="CHACON" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

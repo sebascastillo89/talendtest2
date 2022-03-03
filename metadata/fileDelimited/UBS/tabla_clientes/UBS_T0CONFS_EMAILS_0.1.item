@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_W2lmgZMAEeyTMpo76WAzcQ" name="UBS_T0CONFS_EMAILS" dataPackage="_W2lmgpMAEeyTMpo76WAzcQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0CONFS_EMAILS.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_W2lmgpMAEeyTMpo76WAzcQ" name="default" dataManager="_W2lmgZMAEeyTMpo76WAzcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W2lmg5MAEeyTMpo76WAzcQ" id="_IkxtwJMAEeyTMpo76WAzcQ" comment="Tabla de configuración de correos electrónicos asociados a una configuración" label="UBS_T0CONFS_EMAILS">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2lmhJMAEeyTMpo76WAzcQ" comment="Identificador de la revisión" label="IDREVISION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2lmhZMAEeyTMpo76WAzcQ" comment="Identificador de la línea" label="ID" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W2lmhpMAEeyTMpo76WAzcQ" comment="Correo electrónico asociado" label="EMAIL" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

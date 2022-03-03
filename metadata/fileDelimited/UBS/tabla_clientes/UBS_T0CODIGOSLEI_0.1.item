@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_jFLtgZMEEeyZPMSpGDFvZw" name="UBS_T0CODIGOSLEI" id="_jFLtgJMEEeyZPMSpGDFvZw" dataPackage="_jFLtgpMEEeyZPMSpGDFvZw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/T0CODIGOSLEI.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jFLtgpMEEeyZPMSpGDFvZw" name="default" dataManager="_jFLtgZMEEeyZPMSpGDFvZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jFLtg5MEEeyZPMSpGDFvZw" id="_KenAYJMEEeyZPMSpGDFvZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLthJMEEeyZPMSpGDFvZw" comment="Código LEI" label="CODLEI" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLthZMEEeyZPMSpGDFvZw" comment="Estado" label="STATUS" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLthpMEEeyZPMSpGDFvZw" comment="Nombre de la compañía" label="NOMBRECIA" length="150" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLth5MEEeyZPMSpGDFvZw" comment="Estado de la compañía" label="STATUSCIA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLtiJMEEeyZPMSpGDFvZw" comment="Fecha de renovación" label="FECHARENOV" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLtiZMEEeyZPMSpGDFvZw" comment="Usuario de grabación" label="USUARIOGRABACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLtipMEEeyZPMSpGDFvZw" comment="Fecha de grabación" label="FECHAGRABACION" length="-1" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFLti5MEEeyZPMSpGDFvZw" comment="Manual Y/N" label="MANUAL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

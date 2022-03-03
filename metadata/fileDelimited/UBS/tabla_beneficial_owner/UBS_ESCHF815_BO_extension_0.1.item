@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_CIvoUZGpEeye2sLDY5adkw" name="UBS_ESCHF815_BO_extension" dataPackage="_CIvoUpGpEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF815 - BO extension.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="“Þ”" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CIvoUpGpEeye2sLDY5adkw" name="default" dataManager="_CIvoUZGpEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CIvoU5GpEeye2sLDY5adkw" id="_7_sFoJDHEeye2sLDY5adkw" label="UBS_ESCHF815_BO_extension">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoVJGpEeye2sLDY5adkw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoVZGpEeye2sLDY5adkw" comment="NIF beneficial owner" label="NIFBO" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoVpGpEeye2sLDY5adkw" comment="Nombre beneficial owner" label="NOMBO" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoV5GpEeye2sLDY5adkw" comment="Persona física/jurídica" label="PFPJBO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoWJGpEeye2sLDY5adkw" comment="Pais nacimiento" label="NACBO" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoWZGpEeye2sLDY5adkw" comment="Compañía no operativa" label="NONOBO" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoWpGpEeye2sLDY5adkw" comment="Es cliente o no" label="ESCLTE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoW5GpEeye2sLDY5adkw" comment="Compañía operativa" label="COMPOPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoXJGpEeye2sLDY5adkw" comment="NTBR" label="NTBR" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoXZGpEeye2sLDY5adkw" comment="SCAP1" label="SCAP1" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoXpGpEeye2sLDY5adkw" comment="SCAP2" label="SCAP2" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoX5GpEeye2sLDY5adkw" comment="PEP" label="PEP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoYJGpEeye2sLDY5adkw" comment="SIAP" label="SIAP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoYZGpEeye2sLDY5adkw" comment="Due Dilligence" label="DUEDIL" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CIvoYpGpEeye2sLDY5adkw" comment="Más de 50 Millones" label="MAS50M" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

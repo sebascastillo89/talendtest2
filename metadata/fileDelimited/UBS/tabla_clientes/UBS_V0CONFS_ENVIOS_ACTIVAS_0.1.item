@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_XsLkAJL7EeyTMpo76WAzcQ" name="UBS_V0CONFS_ENVIOS_ACTIVAS" dataPackage="_XsLkAZL7EeyTMpo76WAzcQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/V0CONFS_ENVIOS_ACTIVAS.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_XsLkAZL7EeyTMpo76WAzcQ" name="default" dataManager="_XsLkAJL7EeyTMpo76WAzcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XsLkApL7EeyTMpo76WAzcQ" id="_2nXKIJL4EeyTMpo76WAzcQ" comment="Tabla de configuraciones activas de envío de correspondencia" label="UBS_V0CONFS_ENVIOS_ACTIVAS">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkA5L7EeyTMpo76WAzcQ" comment="Identificador de la configuración" label="ID" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkBJL7EeyTMpo76WAzcQ" comment="Marca de todos los documentos (no usado)" label="TODOSDOCUMENTOS" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkBZL7EeyTMpo76WAzcQ" comment="Identificador de la revisión" label="IDREVISION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkBpL7EeyTMpo76WAzcQ" comment="Acción de la configuración" label="ACCION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkB5L7EeyTMpo76WAzcQ" comment="Usuario que realizó la acción" label="USUARIOACCION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkCJL7EeyTMpo76WAzcQ" comment="fecha de la acción" label="FECHAACCION" length="-1" talendType="id_Date">
+        <initialValue xmi:id="_XsLkCZL7EeyTMpo76WAzcQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkCpL7EeyTMpo76WAzcQ" comment="Revisión" label="REVISION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_XsLkC5L7EeyTMpo76WAzcQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkDJL7EeyTMpo76WAzcQ" comment="Usuario de la revisión" label="USUARIOREVISION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XsLkDZL7EeyTMpo76WAzcQ" comment="Fecha de la revisión" label="FECHAREVISION" length="-1" talendType="id_Date"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

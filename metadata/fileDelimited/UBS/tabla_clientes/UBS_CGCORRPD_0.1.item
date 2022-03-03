@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_fJpzcZMBEeyZPMSpGDFvZw" name="UBS_CGCORRPD" id="_fJpzcJMBEeyZPMSpGDFvZw" dataPackage="_fJqagJMBEeyZPMSpGDFvZw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/CGCORRPD.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fJqagJMBEeyZPMSpGDFvZw" name="default" dataManager="_fJpzcZMBEeyZPMSpGDFvZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fJqagZMBEeyZPMSpGDFvZw" id="_hQpj4JL7EeyZPMSpGDFvZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqagpMBEeyZPMSpGDFvZw" comment="Código de cliente asociado" label="CDCORR" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqag5MBEeyZPMSpGDFvZw" comment="Record Identifier  " label="CDRECI" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqahJMBEeyZPMSpGDFvZw" comment="Customer Number SD " label="CDCUST" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqahZMBEeyZPMSpGDFvZw" comment="Counterparty Nostro Code " label="CDCPNC" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqahpMBEeyZPMSpGDFvZw" comment="BIC (BankCountry&amp; Loc " label="CDBICC" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqah5MBEeyZPMSpGDFvZw" comment="BIC (Branch Code) " label="CDBICB" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaiJMBEeyZPMSpGDFvZw" comment="Branch Code  " label="CDBRCA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaiZMBEeyZPMSpGDFvZw" comment="Correspondent type  " label="CDCTYP" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaipMBEeyZPMSpGDFvZw" comment="Relationship type  " label="CDRTYP" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqai5MBEeyZPMSpGDFvZw" comment="Language identifier  " label="CDLGID" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqajJMBEeyZPMSpGDFvZw" comment="Correspondent Name  " label="CDCORN" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqajZMBEeyZPMSpGDFvZw" comment="For Attention of " label="CDFATT" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqajpMBEeyZPMSpGDFvZw" comment="Address Line 1 " label="CDADD1" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaj5MBEeyZPMSpGDFvZw" comment="Address Line 2 " label="CDADD2" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqakJMBEeyZPMSpGDFvZw" comment="Address Line 3 " label="CDADD3" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqakZMBEeyZPMSpGDFvZw" comment="Address Line 4 " label="CDADD4" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqakpMBEeyZPMSpGDFvZw" comment="Address Line 5 " label="CDADD5" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqak5MBEeyZPMSpGDFvZw" comment="Address Line 6 " label="CDADD6" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqalJMBEeyZPMSpGDFvZw" comment="address line 7 " label="CDADD7" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqalZMBEeyZPMSpGDFvZw" comment="address line 8 " label="CDADD8" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqalpMBEeyZPMSpGDFvZw" comment="ZIP code  " label="CDZIP" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqal5MBEeyZPMSpGDFvZw" comment="Indicador retención de correspondencia" label="CDDPRT" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqamJMBEeyZPMSpGDFvZw" comment="Default Print Date " label="CDDPDT" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqamZMBEeyZPMSpGDFvZw" comment="Creation date  " label="CDCDTE" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqampMBEeyZPMSpGDFvZw" comment="Override Branch  " label="CDOBRC" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqam5MBEeyZPMSpGDFvZw" comment="Default Retention Period " label="CDDRET" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqanJMBEeyZPMSpGDFvZw" comment="Print Address Label " label="CDPLAB" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqanZMBEeyZPMSpGDFvZw" comment="Activation Date  " label="CDATDT" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqanpMBEeyZPMSpGDFvZw" comment="De-Activation Date  " label="CDDADT" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqan5MBEeyZPMSpGDFvZw" comment="Structure Type  " label="CDCSTR" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaoJMBEeyZPMSpGDFvZw" comment="Location Code  " label="CDLCCD" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaoZMBEeyZPMSpGDFvZw" comment="Fax Number  " label="CDFAX" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaopMBEeyZPMSpGDFvZw" comment="Telephone Number  " label="CDTEL" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqao5MBEeyZPMSpGDFvZw" comment="Clearing Reference  " label="CDCREF" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqapJMBEeyZPMSpGDFvZw" comment="Default print day number" label="CDDYNB" length="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqapZMBEeyZPMSpGDFvZw" comment="Electronic route code " label="CDERT" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqappMBEeyZPMSpGDFvZw" comment="Default Mail Shot code" label="CDDMSH" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqap5MBEeyZPMSpGDFvZw" comment="Charge Currency  " label="CDCCCY" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaqJMBEeyZPMSpGDFvZw" comment="Charge per item " label="CDCITM" length="15" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaqZMBEeyZPMSpGDFvZw" comment="Charge Not Posted " label="CDBSNB" length="15" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaqpMBEeyZPMSpGDFvZw" comment="Charge Accumlated to-date " label="CDCACC" length="15" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaq5MBEeyZPMSpGDFvZw" comment="Post charge frequency " label="CDCFRQ" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqarJMBEeyZPMSpGDFvZw" comment="Next Post Date " label="CDNTDT" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqarZMBEeyZPMSpGDFvZw" comment="Apply Charge  " label="CDACHG" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqarpMBEeyZPMSpGDFvZw" comment="Charge Account  " label="CDCACT" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqar5MBEeyZPMSpGDFvZw" comment="Post Charges day number" label="CDPDAY" length="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqasJMBEeyZPMSpGDFvZw" comment="Description   " label="CDDESC" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqasZMBEeyZPMSpGDFvZw" comment="Job name  " label="CDAJOB" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqaspMBEeyZPMSpGDFvZw" comment="User name  " label="CDAUSR" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqas5MBEeyZPMSpGDFvZw" comment="Action Time  " label="CDATIM" length="6" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqatJMBEeyZPMSpGDFvZw" comment="Action Date  " label="CDARDT" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqatZMBEeyZPMSpGDFvZw" comment="Action Type  " label="CDAACT" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqatpMBEeyZPMSpGDFvZw" comment="Run day number " label="CDRDNB" length="5" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJqat5MBEeyZPMSpGDFvZw" comment="Email Address  " label="CDEML" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

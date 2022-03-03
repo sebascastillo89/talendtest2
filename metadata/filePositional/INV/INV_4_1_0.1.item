@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_CG5iUI9FEeyVfPQZECqnhA" name="INV_4.1" dataPackage="_CG5iUY9FEeyVfPQZECqnhA" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_4.1.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,15,23,38,66,94,96,97,107,109,149,156,176,190,230,232,237,240,290,305,320,326,341,381,451,452,453,454,455,456,459,487,496,505,521,523,533,536,545,546,556,566,575,576,606,636,666,668,683,685,687,697,698,728,758,788&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CG5iUY9FEeyVfPQZECqnhA" name="default" dataManager="_CG5iUI9FEeyVfPQZECqnhA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CG5iUo9FEeyVfPQZECqnhA" id="_s_CmgI8-EeyVfPQZECqnhA" comment="4.1_Fichero estándar de carga de Cuentas" label="INV_4.1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iU49FEeyVfPQZECqnhA" name="Empresa" comment="Siempre 5000" label="Empresa" length="4" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iVI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iVY9FEeyVfPQZECqnhA" name="Institucion" label="Institucion" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iVo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iV49FEeyVfPQZECqnhA" name="Fecha_Trasmision" comment="Formato aaaammdd" label="Fecha_Trasmision" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iWI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iWY9FEeyVfPQZECqnhA" name="Tipo_Fichero" comment="Siempre &quot;CUENTASDET&quot;" label="Tipo_Fichero" length="15" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iWo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iW49FEeyVfPQZECqnhA" name="Numero_Cuenta_Externa_de_Cliente" label="Numero_Cuenta_Externa_de_Cliente" length="28" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iXI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iXY9FEeyVfPQZECqnhA" name="Numero_Cuenta_Inversis" label="Numero_Cuenta_Inversis" length="28" talendType="id_Character">
+        <initialValue xmi:id="_CG5iXo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iX49FEeyVfPQZECqnhA" name="Tipo_Registro" comment="CU - Datos de la Cuenta" label="Tipo_Registro" length="2" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iYI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iYY9FEeyVfPQZECqnhA" name="Estado_de_Cuenta" comment="A-Activado E-Desactivado" label="Estado_de_Cuenta" length="1" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iYo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iY49FEeyVfPQZECqnhA" name="Tipo_de_Cuenta_o_Producto" comment="Por ej: CV – Cuenta Valores. PE – Cuenta Plan Pensiones (si hay cuenta transitoria)" label="Tipo_de_Cuenta_o_Producto" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iZI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iZY9FEeyVfPQZECqnhA" name="Tipo_Via_Correo" label="Tipo_Via_Correo" length="2" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iZo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iZ49FEeyVfPQZECqnhA" name="Calle_Correo" label="Calle_Correo" length="40" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iaI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iaY9FEeyVfPQZECqnhA" name="Numero_Correo" label="Numero_Correo" length="7" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iao9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ia49FEeyVfPQZECqnhA" name="Restos_Datos_Correo" label="Restos_Datos_Correo" length="20" talendType="id_Character">
+        <initialValue xmi:id="_CG5ibI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ibY9FEeyVfPQZECqnhA" name="Filler" label="Filler" length="14" talendType="id_Character">
+        <initialValue xmi:id="_CG5ibo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ib49FEeyVfPQZECqnhA" name="Localidad_Correo" label="Localidad_Correo" length="40" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5icI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5icY9FEeyVfPQZECqnhA" name="Provincia_Correo" comment="Obligatorio si el campo &quot;País - Correo&quot; es España." label="Provincia_Correo" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_CG5ico9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ic49FEeyVfPQZECqnhA" name="Codigo_Postal" comment="Obligatorio si el campo &quot;País - Correo&quot; es España." label="Codigo_Postal" length="5" talendType="id_Character">
+        <initialValue xmi:id="_CG5idI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5idY9FEeyVfPQZECqnhA" name="Pais_Correo" label="Pais_Correo" length="3" talendType="id_Character">
+        <initialValue xmi:id="_CG5ido9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5id49FEeyVfPQZECqnhA" name="A_la_Atencion_de_Correo" label="A_la_Atencion_de_Correo" length="50" talendType="id_Character">
+        <initialValue xmi:id="_CG5ieI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ieY9FEeyVfPQZECqnhA" name="Telefono_Fijo" label="Telefono_Fijo" length="15" talendType="id_Character">
+        <initialValue xmi:id="_CG5ieo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ie49FEeyVfPQZECqnhA" name="Telefono_Movil" label="Telefono_Movil" length="15" talendType="id_Character">
+        <initialValue xmi:id="_CG5ifI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ifY9FEeyVfPQZECqnhA" name="Hora_Contacto" comment="Formato hhmmss" label="Hora_Contacto" length="6" talendType="id_Character">
+        <initialValue xmi:id="_CG5ifo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5if49FEeyVfPQZECqnhA" name="Fax" label="Fax" length="15" talendType="id_Character">
+        <initialValue xmi:id="_CG5igI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5igY9FEeyVfPQZECqnhA" name="Telex" label="Telex" length="40" talendType="id_Character">
+        <initialValue xmi:id="_CG5igo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ig49FEeyVfPQZECqnhA" name="Email" label="Email" length="70" talendType="id_Character">
+        <initialValue xmi:id="_CG5ihI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ihY9FEeyVfPQZECqnhA" name="Filler2" label="Filler2" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5iho9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ih49FEeyVfPQZECqnhA" name="Filler3" label="Filler3" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5iiI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iiY9FEeyVfPQZECqnhA" name="Filler4" label="Filler4" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5iio9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ii49FEeyVfPQZECqnhA" name="Filler5" label="Filler5" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5ijI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ijY9FEeyVfPQZECqnhA" name="Filler6" label="Filler6" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5ijo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ij49FEeyVfPQZECqnhA" name="Divisa_Cuenta_Externa_del_Cliente" comment="Requerido si la cuenta valor es monodivisa. El campo Código Interno Multidivisa debe venir vacio si este se cumplimenta." label="Divisa_Cuenta_Externa_del_Cliente" length="3" talendType="id_Character">
+        <initialValue xmi:id="_CG5ikI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ikY9FEeyVfPQZECqnhA" name="Cuenta_Efectivo_de_Inversis_asociada" comment="Cuenta efectivo para liquidar" label="Cuenta_Efectivo_de_Inversis_asociada" length="28" talendType="id_Character">
+        <initialValue xmi:id="_CG5iko9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ik49FEeyVfPQZECqnhA" name="Filler7" label="Filler7" length="9" talendType="id_Character">
+        <initialValue xmi:id="_CG5ilI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ilY9FEeyVfPQZECqnhA" name="Filler8" label="Filler8" length="9" talendType="id_Character">
+        <initialValue xmi:id="_CG5ilo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5il49FEeyVfPQZECqnhA" name="Usuario_Alta_de_Cuenta" label="Usuario_Alta_de_Cuenta" length="16" talendType="id_Character">
+        <initialValue xmi:id="_CG5imI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5imY9FEeyVfPQZECqnhA" name="Nivel_Confidencialidad" label="Nivel_Confidencialidad" length="2" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_CG5imo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5im49FEeyVfPQZECqnhA" name="Tipo_Producto" label="Tipo_Producto" length="10" talendType="id_Character">
+        <initialValue xmi:id="_CG5inI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5inY9FEeyVfPQZECqnhA" name="Pais_Fiscal_de_Cuenta" comment="Sólo obligatorio cuando hay diferente fiscalidad entre los titulares" label="Pais_Fiscal_de_Cuenta" length="3" talendType="id_Character">
+        <initialValue xmi:id="_CG5ino9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5in49FEeyVfPQZECqnhA" name="Codigo_Interno_Dato_Persona" comment="Obligatorio – Identifica la estructura comercial de la que se va a colgar la cuenta" label="Codigo_Interno_Dato_Persona" length="9" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_CG5ioI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ioY9FEeyVfPQZECqnhA" name="Transaccionable_Cliente" comment="Opcional. Valores: S – Si, N. Por defecto S" label="Transaccionable_Cliente" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5ioo9FEeyVfPQZECqnhA" body="S"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5io49FEeyVfPQZECqnhA" name="Perfil_de_Riesgo" comment="Obsoleto – NO USAR" label="Perfil_de_Riesgo" length="10" talendType="id_Character">
+        <initialValue xmi:id="_CG5ipI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ipY9FEeyVfPQZECqnhA" name="Tipo_de_Firma" comment="02 - SOLIDARIA, 03 - MANCOMUNADA" label="Tipo_de_Firma" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5ipo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ip49FEeyVfPQZECqnhA" name="Codigo_Interno_Multidivisa" comment="Requerido si cuenta multidivisa. El campo Divisa cuenta externa del cliente debe venir vacio si este se cumplimenta." label="Codigo_Interno_Multidivisa" length="9" talendType="id_Integer">
+        <initialValue xmi:id="_CG5iqI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iqY9FEeyVfPQZECqnhA" name="Retener_SI_NO" comment="S - SI, N – No, NOTA: Valor NULL o Espacios NO admitido" label="Retener_SI_NO" length="1" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_CG5iqo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iq49FEeyVfPQZECqnhA" name="Numero_de_Cuenta_Externa_2_de_Cliente" label="Numero_de_Cuenta_Externa_2_de_Cliente" length="30" talendType="id_Character">
+        <initialValue xmi:id="_CG5irI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5irY9FEeyVfPQZECqnhA" name="Numero_de_Cuenta_Externa_3_de_Cliente" label="Numero_de_Cuenta_Externa_3_de_Cliente" length="30" talendType="id_Character">
+        <initialValue xmi:id="_CG5iro9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ir49FEeyVfPQZECqnhA" name="Numero_de_Cuenta_Externa_4_de_Cliente" comment="CCV de la cuenta en la institución a migrar" label="Numero_de_Cuenta_Externa_4_de_Cliente" length="30" talendType="id_Character">
+        <initialValue xmi:id="_CG5isI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5isY9FEeyVfPQZECqnhA" name="Provincia_Fiscal" comment="Si los intervinientes tiene diferente territorio fiscal, se marca la provincia de tributación" label="Provincia_Fiscal" length="2" talendType="id_Character">
+        <initialValue xmi:id="_CG5iso9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5is49FEeyVfPQZECqnhA" name="IVA_Canario" label="IVA_Canario" length="15" talendType="id_Character">
+        <initialValue xmi:id="_CG5itI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5itY9FEeyVfPQZECqnhA" name="Tipo_Cuenta_MIFID" comment="Indica si la cuenta es gestionada, asesorada, autogestionada, etc. Valores posibles: AS&#x9;ASESORADA, GD GESTION DISCRECIONAL, CO CONTRAPARTE, AG AUTOGESTIONADA, AE ASESORADA EXTERNO/EAFI" label="Tipo_Cuenta_MIFID" length="2" talendType="id_Character">
+        <initialValue xmi:id="_CG5ito9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5it49FEeyVfPQZECqnhA" name="Tipo_Riesgo_MIFID" label="Tipo_Riesgo_MIFID" length="2" talendType="id_Character">
+        <initialValue xmi:id="_CG5iuI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iuY9FEeyVfPQZECqnhA" name="Codigo_Tipo_Gestion" comment="Para cuentas gestionadas. Si se alimenta no se permite operar a los clientes y empleados no autorizados" label="Codigo_Tipo_Gestion" length="10" talendType="id_Character">
+        <initialValue xmi:id="_CG5iuo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iu49FEeyVfPQZECqnhA" name="Indicador_de_Cuenta_Institucional" comment="Indicador de si en la cuenta pueden contratarse determinados fondos institucionales (S/N)" label="Indicador_de_Cuenta_Institucional" length="1" talendType="id_Character">
+        <initialValue xmi:id="_CG5ivI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5ivY9FEeyVfPQZECqnhA" name="Clave_Externa_de_Restriccion" comment="Clave externa de la restricción operativa de la cuenta" label="Clave_Externa_de_Restriccion" length="30" talendType="id_Character">
+        <initialValue xmi:id="_CG5ivo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iv49FEeyVfPQZECqnhA" name="Filler9" label="Filler9" length="30" talendType="id_Character">
+        <initialValue xmi:id="_CG5iwI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iwY9FEeyVfPQZECqnhA" name="CCC_de_Cuenta_Efectivo_Asociada" comment="CCC de la cuenta de efectivo asociada a la de valores. Es el CCC en la entidad cliente de la institución a migrar, no en Inversis. Dejar a blanco salvo en determinadas instituciones a migrar" label="CCC_de_Cuenta_Efectivo_Asociada" length="30" talendType="id_Character">
+        <initialValue xmi:id="_CG5iwo9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CG5iw49FEeyVfPQZECqnhA" name="Filler10" label="Filler10" length="43" talendType="id_Character">
+        <initialValue xmi:id="_CG5ixI9FEeyVfPQZECqnhA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

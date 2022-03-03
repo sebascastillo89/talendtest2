@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:PositionalFileConnection xmi:id="_ZZ1LMY8iEeyCY5FxK9e4aQ" name="INV_5.4" dataPackage="_ZZ1LMo8iEeyCY5FxK9e4aQ" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/INV_5.4.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;1,5,15,35,47,61,71,92,110,128,146,149,157,163&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ZZ1LMo8iEeyCY5FxK9e4aQ" name="default" dataManager="_ZZ1LMY8iEeyCY5FxK9e4aQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ZZ1LM48iEeyCY5FxK9e4aQ" id="_pRL3sI8dEeyCY5FxK9e4aQ" comment="Fichero estándar de carga de FIFOS de RF Internacional" label="INV_5.4">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LNI8iEeyCY5FxK9e4aQ" name="Empresa" label="Empresa" length="4" talendType="id_Character" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LNY8iEeyCY5FxK9e4aQ" name="Institucion" label="Institucion" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LNo8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LN48iEeyCY5FxK9e4aQ" name="Cta_Valores_Cliente" comment="Será la misma codificación que mantenemos en el maestro de cuentas como referencia externa de la cuenta" label="Cta_Valores_Cliente" length="20" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LOI8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LOY8iEeyCY5FxK9e4aQ" name="Cod_ISIN" label="Cod_ISIN" length="12" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LOo8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LO48iEeyCY5FxK9e4aQ" name="Nominal" label="Nominal" length="14" precision="4" talendType="id_Integer" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LPI8iEeyCY5FxK9e4aQ" name="Mercado" comment="Según la codificación de Inversisv (TABLA MAESTRA)" label="Mercado" length="10" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LPY8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LPo8iEeyCY5FxK9e4aQ" name="Precio_Bruto_Adquisicion" comment="Obligatorio. Distinto de 0. (&lt;>0). Para Instrumentos que expresan el Precio en porcentaje, es el %. Para instrumentos que expresan el Precio en valor, es el precio bruto ex cupón en divisa de la operación y fecha valor fiscal, y expresado en divisa de cotización del instrumento" label="Precio_Bruto_Adquisicion" length="21" precision="9" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ZZ1LP48iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LQI8iEeyCY5FxK9e4aQ" name="Importe_Efectivo_Bruto_Adquisicion_ex_cupon" comment="Importe efectivo bruto de adquisición en la DIVISA de la transacción (ex cupón). En Inversis no incorporamos este dato como importe del FIFO, sino que lo utilizamos como comprobación. Nunca debe ir a blancos." label="Importe_Efectivo_Bruto_Adquisicion_ex_cupon" length="18" precision="2" talendType="id_Float" nullable="false">
+        <initialValue xmi:id="_ZZ1LQY8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LQo8iEeyCY5FxK9e4aQ" name="Importe_Efectivo_Bruto_Adquisicion_EUR" comment="Importe efectivo bruto de adquisición en EUR (ex cupón). En Inversis no incorporamos este dato como importe del FIFO, sino que lo utilizamos como comprobación. Nuncam debe ir a blancos." label="Importe_Efectivo_Bruto_Adquisicion_EUR" length="18" precision="2" talendType="id_Float" nullable="false">
+        <initialValue xmi:id="_ZZ1LQ48iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LRI8iEeyCY5FxK9e4aQ" name="Cambio_Divisa_Operacion_Cliente" comment="Cambio de divisa entre la divisa de la transacción y la divisa del cliente. El valor será de 1 cuando ambas divisas coincidan" label="Cambio_Divisa_Operacion_Cliente" length="18" precision="9" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ZZ1LRY8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LRo8iEeyCY5FxK9e4aQ" name="Divisa_Liquidacion_Cliente" comment="Divisa de liquidación del cliente." label="Divisa_Liquidacion_Cliente" length="3" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LR48iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LSI8iEeyCY5FxK9e4aQ" name="Fecha_Adquisicion" comment="Formato YYYYMMDD" label="Fecha_Adquisicion" length="8" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LSY8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LSo8iEeyCY5FxK9e4aQ" name="Filler" label="Filler" length="6" talendType="id_Character">
+        <initialValue xmi:id="_ZZ1LS48iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZZ1LTI8iEeyCY5FxK9e4aQ" name="Divisa_Liquidacion_camara_mercado" comment="Divisa en que se expresan los importes del formato (aquellos que no son en eur ni en divisa de liquidación)" label="Divisa_Liquidacion_camara_mercado" length="3" talendType="id_Character" nullable="false">
+        <initialValue xmi:id="_ZZ1LTY8iEeyCY5FxK9e4aQ" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

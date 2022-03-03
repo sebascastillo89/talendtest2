@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_7LLxkZGuEeye2sLDY5adkw" name="UBS_ESCHF805A_Extension_personas" id="_7LLxkJGuEeye2sLDY5adkw" dataPackage="_7LLxkpGuEeye2sLDY5adkw" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESCHF805A - Extension personas.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_7LLxkpGuEeye2sLDY5adkw" name="default" dataManager="_7LLxkZGuEeye2sLDY5adkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7LLxk5GuEeye2sLDY5adkw" id="_gZa_QJGuEeye2sLDY5adkw" comment="Tabla Local ESCHF805A. Datos fiscales personas - Extensión 2" label="UBS_ESCHF805A_Extension_personas">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7LLxlJGuEeye2sLDY5adkw" comment="NIF" label="NIF" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7LLxlZGuEeye2sLDY5adkw" comment="DTE" label="DTE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7LLxlpGuEeye2sLDY5adkw" comment="Motivo DTE" label="MOTIVO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7LLxl5GuEeye2sLDY5adkw" comment="Sector" label="IDSECT" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7LLxmJGuEeye2sLDY5adkw" comment="Sector otro" label="SECOTRO" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

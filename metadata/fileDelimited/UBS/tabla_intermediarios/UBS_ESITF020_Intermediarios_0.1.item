@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="__EZpEJMSEeyVWotbk8NqBg" name="UBS_ESITF020_Intermediarios" dataPackage="__EZpEZMSEeyVWotbk8NqBg" Server="Localhost 127.0.0.1" FilePath="C:/talend_workspace/SINGULARETL/ficheros/ESITF020 - Intermediarios.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;Þ&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__EZpEZMSEeyVWotbk8NqBg" name="default" dataManager="__EZpEJMSEeyVWotbk8NqBg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__EZpEpMSEeyVWotbk8NqBg" id="_SLcn4JMSEeyVWotbk8NqBg" comment="Tabla ESITF020 desarrollo local RPG. Tabla maestra de intermediarios" label="UBS_ESITF020_Intermediarios">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpE5MSEeyVWotbk8NqBg" comment="Identificador interno intermediario" label="F02001" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpFJMSEeyVWotbk8NqBg" comment="Nombre intermediario" label="F02002" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpFZMSEeyVWotbk8NqBg" comment="Código de FIM" label="F02003" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpFpMSEeyVWotbk8NqBg" comment="GPN responsable" label="F02004" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpF5MSEeyVWotbk8NqBg" comment="Cuenta contable" label="F02005" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpGJMSEeyVWotbk8NqBg" comment="Account officer" label="F02006" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpGZMSEeyVWotbk8NqBg" comment="Actividad (enlaza con ESTIF010)" label="F02008" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpGpMSEeyVWotbk8NqBg" comment="Dirección" label="F02009" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpG5MSEeyVWotbk8NqBg" comment="Comentarios" label="F02010" length="300" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpHJMSEeyVWotbk8NqBg" comment="Activo" label="F02011" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpHZMSEeyVWotbk8NqBg" comment="Fecha de baja" label="F02012" length="80" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__EZpHpMSEeyVWotbk8NqBg" comment="email de facturación" label="F02013" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
